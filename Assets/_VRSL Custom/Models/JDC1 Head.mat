@@ -13,7 +13,10 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
+  - _ENABLEDMX_ON
+  - _ENABLESTROBE_ON
   - _NINEUNIVERSEMODE_ON
+  - _TILTENABLE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -57,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 6bc13ec653667754b9afbe4a937ab100, type: 3}
+        m_Texture: {fileID: 2800000, guid: e138f46423702a848ba81d40dffd4b87, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -65,11 +68,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicSmoothness:
-        m_Texture: {fileID: 2800000, guid: 19bd97a31fc42484ea51cb1300e2e81a, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9b625bf4a01af15498ad0d9465aa21ab, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: c549871d3d903ea4fb786cd39d971459, type: 3}
+        m_Texture: {fileID: 2800000, guid: f39e612bbd639654097e0393c865e073, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
@@ -83,23 +86,23 @@ Material:
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
-    - _ChannelMode: 1
+    - _ChannelMode: 4
     - _CurveBeam: 100
     - _CurveMod: 4
-    - _CurvePlate: 20
+    - _CurvePlate: 1
     - _Cutoff: 0.5
     - _DMXChannel: 0
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _EnableCompatibilityMode: 0
-    - _EnableDMX: 0
+    - _EnableDMX: 1
     - _EnableSpin: 0
-    - _EnableStrobe: 0
+    - _EnableStrobe: 1
     - _EnableVerticalMode: 0
-    - _FinalIntensity: 0.992
+    - _FinalIntensity: 1
     - _FirstTexUVSet: 1
     - _FixtureMaxIntensity: 15
-    - _GlobalIntensity: 0
+    - _GlobalIntensity: 1
     - _GlobalIntensityBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.355
@@ -116,6 +119,8 @@ Material:
     - _SrcBlend: 1
     - _StrobeFreq: 1
     - _TexUVSet: 0
+    - _TiltEnable: 1
+    - _TiltInvert: 0
     - _UVSec: 0
     - _UniversalIntensity: 1
     - _UseRawGrid: 0

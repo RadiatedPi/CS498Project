@@ -1,0 +1,523 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.6f1 (b9e6e7e9fa2d) revision 12183271'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32605 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\Installs\2022.3.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/jevan/Documents/GitHub/CS498Project
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+61692
+Successfully changed project path to: C:/Users/jevan/Documents/GitHub/CS498Project
+C:/Users/jevan/Documents/GitHub/CS498Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [31468] Host "[IP] 192.168.51.39 [Port] 0 [Flags] 2 [Guid] 318115247 [EditorId] 318115247 [Version] 1048832 [Id] WindowsEditor(7,RadiantDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [31468] Host "[IP] 192.168.51.39 [Port] 0 [Flags] 2 [Guid] 318115247 [EditorId] 318115247 [Version] 1048832 [Id] WindowsEditor(7,RadiantDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 41.69 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.92 ms.
+Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
+[Subsystems] Discovering subsystems at path E:/Unity/Installs/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jevan/Documents/GitHub/CS498Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16338 MB
+    Driver:   31.0.23013.1023
+Initialize mono
+Mono path[0] = 'E:/Unity/Installs/2022.3.6f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Installs/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/Installs/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Installs/2022.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Unity/Installs/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002684 seconds.
+- Loaded All Assemblies, in  0.279 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.341 seconds
+Domain Reload Profiling: 620ms
+	BeginReloadAssembly (70ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (69ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (114ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (341ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (291ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (90ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (142ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.844 seconds
+Refreshing native plugins compatible for Editor in 25.05 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path
+  at System.IO.Directory.CreateDirectory (System.String path) [0x00003] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at VRC.SDKBase.Editor.VRCPackageSettings.EnsurePathExists () [0x0000b] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:45 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Load () [0x00000] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:50 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Create () [0x00005] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:19 
+  at VRC.SDKBase.Editor.SampleHintCreator..cctor () [0x00007] in .\Packages\com.vrchat.base\Editor\VRCSDK\SampleHintCreator.cs:18 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eef08f56e2e042f1b3027eca477293d9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <347e3e2bef8c4deb82c9790c6e198135>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+AssemblyReload
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Texel.ScreenManagerInspector:OnAssemblyReload () (at ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs:202)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+(Filename: ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs Line: 202)
+
+[VideoTXL] Found 0 ScreenManagers in scene
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Texel.ScreenManagerInspector:UpdateManagers () (at ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs:214)
+Texel.ScreenManagerInspector:OnAssemblyReload () (at ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs:203)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+(Filename: ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs Line: 214)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-CS498Project
+<RI> Initialized touch support.
+<RI> Initializing input.
+New input system (experimental) initialized
+Using Windows.Gaming.Input
+<RI> Input initialized.
+- Finished resetting the current domain, in  2.709 seconds
+Domain Reload Profiling: 3549ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (660ms)
+		LoadAssemblies (337ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (367ms)
+			TypeCache.Refresh (326ms)
+				TypeCache.ScanAssembly (311ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (2709ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1134ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (605ms)
+			ProcessInitializeOnLoadMethodAttributes (389ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 26.62 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.13 ms.
+Unloading 4565 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 229 unused Assets / (1.9 MB). Loaded Objects now: 5100.
+Memory consumption went from 336.9 MB to 335.0 MB.
+Total: 35.529000 ms (FindLiveObjects: 0.263900 ms CreateObjectMapping: 0.142800 ms MarkObjects: 34.369800 ms  DeleteObjects: 0.750800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 50503.168397 seconds.
+  path: Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Base_Normal.png
+  artifactKey: Guid(c53469a64fa0a9c4c94fe0c6867c141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Base_Normal.png using Guid(c53469a64fa0a9c4c94fe0c6867c141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eaa600bfbd0dc4876a853e4310dc757') in 0.038948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 323.410178 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (9).jpg
+  artifactKey: Guid(d3b42841e5cd27d4bb0f683ec498000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (9).jpg using Guid(d3b42841e5cd27d4bb0f683ec498000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebcf82adbb20b21f2490eaa38a8906c') in 0.019141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006542 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (11).jpg
+  artifactKey: Guid(0b48796ae2eff2e4592f97849436677a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (11).jpg using Guid(0b48796ae2eff2e4592f97849436677a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaeadca9e134c5e87bddacb2c951b5ab') in 0.018287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (16).jpg
+  artifactKey: Guid(7e8ded856e9486c45a0c72a2ca9b2cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (16).jpg using Guid(7e8ded856e9486c45a0c72a2ca9b2cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a379f221c150d64f6e4d45ae22c6e04f') in 0.019177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (12).jpg
+  artifactKey: Guid(1427eb7067b0ff84fbb3c12c2a3da7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (12).jpg using Guid(1427eb7067b0ff84fbb3c12c2a3da7a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48287dd601218867d8e220d114e04c6') in 0.014827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (13).jpg
+  artifactKey: Guid(f6678285637dca9478005297b797c3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (13).jpg using Guid(f6678285637dca9478005297b797c3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc649066aea214949a4b199bf693d6ec') in 0.013906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/FurHeightMap.gif
+  artifactKey: Guid(4936f95df08752e46940d871d9288f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/FurHeightMap.gif using Guid(4936f95df08752e46940d871d9288f05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777cb1e1d026c965f54d13a6e5f94dd2') in 0.012126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_PoiyomiShaders/TPS/Assets/Jar/textures/glass_Roughness.png
+  artifactKey: Guid(e1682f1bc450ec24a8e5e6f14875768f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/TPS/Assets/Jar/textures/glass_Roughness.png using Guid(e1682f1bc450ec24a8e5e6f14875768f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8737c5a4315293f7ca81388d8866200') in 0.016746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_VRSL Custom/GLP_JDC1_DefaultMaterial_MaskMap.png
+  artifactKey: Guid(80be879d5860bfe45bec53d08f4af1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/GLP_JDC1_DefaultMaterial_MaskMap.png using Guid(80be879d5860bfe45bec53d08f4af1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f56e47a13f1667a481ef5deb9512a7c9') in 0.022122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (19).jpg
+  artifactKey: Guid(14f9237ca5b8ac04e933d8f136c013cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (19).jpg using Guid(14f9237ca5b8ac04e933d8f136c013cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c2f428ab72fd6e0fdcfa1ea6575747') in 0.015514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (17).jpg
+  artifactKey: Guid(86ca19b5a4decea4ea533b7f1f0a80f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (17).jpg using Guid(86ca19b5a4decea4ea533b7f1f0a80f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c47ef06559afd245b9bba9a6ae40d67') in 0.017971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (23).jpg
+  artifactKey: Guid(ef0eddc6bbd1fe44f8535592c33c8286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (23).jpg using Guid(ef0eddc6bbd1fe44f8535592c33c8286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b4372cf8bd7e1a5482fc0d5dc3bf47') in 0.014273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (24).jpg
+  artifactKey: Guid(85673f25242c2fd42bc72f6a2d75a1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (24).jpg using Guid(85673f25242c2fd42bc72f6a2d75a1b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4908f87711a9444095e46bc7517d5a7') in 0.017376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.592540 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (1).png
+  artifactKey: Guid(6dd6638e8d91f324383b214a129f143d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (1).png using Guid(6dd6638e8d91f324383b214a129f143d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61aa60e89a50ee88a99b0f97e78b880') in 0.015863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (3).jpg
+  artifactKey: Guid(2c9b1fc62caa05245b2d5691922ed7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (3).jpg using Guid(2c9b1fc62caa05245b2d5691922ed7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e44ace8c3354fbc2cb478e9555976ce') in 0.017278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (6).jpg
+  artifactKey: Guid(66fa20c31f3fd964795803c2209f2254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (6).jpg using Guid(66fa20c31f3fd964795803c2209f2254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a8c5b27aca901f47b99461cf739b13f') in 0.017223 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (4).png
+  artifactKey: Guid(b974fce48120c9b408a637334056614e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (4).png using Guid(b974fce48120c9b408a637334056614e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6b9d9d7f98e26a5aa36a4d5a623634') in 0.014731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (5).jpg
+  artifactKey: Guid(b96cad894c8c3cd4c8b72e4ef06afc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (5).jpg using Guid(b96cad894c8c3cd4c8b72e4ef06afc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62059a8634b40fc97bf34e281f16b7e') in 0.015840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc56773670ad61665a1d1468320514c') in 0.036449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+  artifactKey: Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF using Guid(8a2b9e2a607dd2143b58c44bc32410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f305e02e39be85e2631c4793c8812a') in 0.012942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878869d0b4a4293b898f7fbb9189ca37') in 0.011040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.acchosen.vr-stage-lighting/Runtime/Other/Skybox/front.png
+  artifactKey: Guid(51590146d584afd4a8a49ddd171a997e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.acchosen.vr-stage-lighting/Runtime/Other/Skybox/front.png using Guid(51590146d584afd4a8a49ddd171a997e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b64275d77ff78c79ccb5bb925490f87') in 0.019418 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.028735 seconds.
+  path: Packages/com.acchosen.vr-stage-lighting/Runtime/Textures/ExampleSamplingTexture.png
+  artifactKey: Guid(ba9a307ceadf5564683f0e0af8af748c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.acchosen.vr-stage-lighting/Runtime/Textures/ExampleSamplingTexture.png using Guid(ba9a307ceadf5564683f0e0af8af748c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea462bc45782accbd7c8d2d627a794b') in 0.011796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_PoiyomiShaders/TPS/Export_FBX_ExportSettings.png
+  artifactKey: Guid(d34d1a426c08cbe4fbae165195b7d2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/TPS/Export_FBX_ExportSettings.png using Guid(d34d1a426c08cbe4fbae165195b7d2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ff8b64a690fc25dbf6934443aea403') in 0.011448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+  artifactKey: Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg using Guid(85ac55597b97403c82fc6601a93cf241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8efb202adcc06c24d23a3fe36a1a55fd') in 0.011640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Mochie/Unity/Textures/Foam 2.jpg
+  artifactKey: Guid(6c6c8f6678ed78e4eb543b06dcbc5b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mochie/Unity/Textures/Foam 2.jpg using Guid(6c6c8f6678ed78e4eb543b06dcbc5b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd11d959d0b244a631679b682cacc7eb') in 0.012226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mochie/Unity/Textures/Foam 1.jpg
+  artifactKey: Guid(6706fbb4d4df9f04eac5dd6ef24e6ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mochie/Unity/Textures/Foam 1.jpg using Guid(6706fbb4d4df9f04eac5dd6ef24e6ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5317d8709e2ceca3bdfe13d13626e445') in 0.015329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.027491 seconds.
+  path: Packages/com.acchosen.vr-stage-lighting/Runtime/Textures/RTs/VerticalMode/DMXRTViewer-RAWValues-Vertical.renderTexture
+  artifactKey: Guid(159c71081e572e648a894d41fca32894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.acchosen.vr-stage-lighting/Runtime/Textures/RTs/VerticalMode/DMXRTViewer-RAWValues-Vertical.renderTexture using Guid(159c71081e572e648a894d41fca32894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '521f513815aa7842f4d06b5c71ceb391') in 0.009936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.037066 seconds.
+  path: Assets/Mochie/Unity/Textures/Droplet Mask.tif
+  artifactKey: Guid(76ae1285472e6ce48a2f01ef7905b8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mochie/Unity/Textures/Droplet Mask.tif using Guid(76ae1285472e6ce48a2f01ef7905b8fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1098597066505acc17f7f2048fea8328') in 0.019747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 188.338340 seconds.
+  path: Packages/com.acchosen.vr-stage-lighting/Runtime/Meshes/HQ Meshes/MoverLight-WashLight-HQMesh-LPoly.fbx
+  artifactKey: Guid(7b9bf5375ef4f5f409f6f26650981e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.acchosen.vr-stage-lighting/Runtime/Meshes/HQ Meshes/MoverLight-WashLight-HQMesh-LPoly.fbx using Guid(7b9bf5375ef4f5f409f6f26650981e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b5f1c8248092af0a45fd8a27f6cec3') in 0.075870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.acchosen.vr-stage-lighting/Runtime/Meshes/HQ Meshes/MoverLight-WashLight-HQMesh-MPoly.fbx
+  artifactKey: Guid(76f8b7aadc98ef64799418ba4b393086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.acchosen.vr-stage-lighting/Runtime/Meshes/HQ Meshes/MoverLight-WashLight-HQMesh-MPoly.fbx using Guid(76f8b7aadc98ef64799418ba4b393086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26453791bc0efc1292821e01217f8b13') in 0.030133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 83.222743 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png
+  artifactKey: Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png using Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd50bdb5dc073e234c2b54291d22a65') in 0.023507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_BaseMap.png
+  artifactKey: Guid(e138f46423702a848ba81d40dffd4b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_BaseMap.png using Guid(e138f46423702a848ba81d40dffd4b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba66a1c7533c21d7117084a8c43b103') in 0.016745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_MaskMap.png
+  artifactKey: Guid(9b625bf4a01af15498ad0d9465aa21ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_MaskMap.png using Guid(9b625bf4a01af15498ad0d9465aa21ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d95e31306d5078783f7853fc0f13fe') in 0.008385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

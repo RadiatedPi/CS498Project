@@ -11,13 +11,13 @@ E:\Unity\Installs\2022.3.6f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/jevan/Documents/GitHub/CS498ProjectMain
+C:/Users/jevan/Documents/GitHub/CS498Project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59477
-Successfully changed project path to: C:/Users/jevan/Documents/GitHub/CS498ProjectMain
-C:/Users/jevan/Documents/GitHub/CS498ProjectMain
+61692
+Successfully changed project path to: C:/Users/jevan/Documents/GitHub/CS498Project
+C:/Users/jevan/Documents/GitHub/CS498Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,15 +49,15 @@ C:/Users/jevan/Documents/GitHub/CS498ProjectMain
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18600] Host "[IP] 192.168.51.39 [Port] 0 [Flags] 2 [Guid] 2736576998 [EditorId] 2736576998 [Version] 1048832 [Id] WindowsEditor(7,RadiantDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [47880] Host "[IP] 192.168.51.39 [Port] 0 [Flags] 2 [Guid] 1631812916 [EditorId] 1631812916 [Version] 1048832 [Id] WindowsEditor(7,RadiantDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18600] Host "[IP] 192.168.51.39 [Port] 0 [Flags] 2 [Guid] 2736576998 [EditorId] 2736576998 [Version] 1048832 [Id] WindowsEditor(7,RadiantDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [47880] Host "[IP] 192.168.51.39 [Port] 0 [Flags] 2 [Guid] 1631812916 [EditorId] 1631812916 [Version] 1048832 [Id] WindowsEditor(7,RadiantDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 51.24 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.88 ms.
+Refreshing native plugins compatible for Editor in 50.31 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 20.90 ms.
 Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
 [Subsystems] Discovering subsystems at path E:/Unity/Installs/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/jevan/Documents/GitHub/CS498ProjectMain/Assets
+[Subsystems] Discovering subsystems at path C:/Users/jevan/Documents/GitHub/CS498Project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'E:/Unity/Installs/2022.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Installs/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/Installs/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/Installs/2022.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/Unity/Installs/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003399 seconds.
-- Loaded All Assemblies, in  0.316 seconds
+Registered in 0.004598 seconds.
+- Loaded All Assemblies, in  0.310 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.335 seconds
-Domain Reload Profiling: 651ms
-	BeginReloadAssembly (79ms)
+- Finished resetting the current domain, in  0.288 seconds
+Domain Reload Profiling: 598ms
+	BeginReloadAssembly (73ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
+	RebuildCommonClasses (39ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (144ms)
-		LoadAssemblies (79ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (73ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (141ms)
-			TypeCache.Refresh (140ms)
-				TypeCache.ScanAssembly (129ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (127ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (336ms)
+	FinalizeReload (289ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (278ms)
+		SetupLoadedEditorAssemblies (237ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (104ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (91ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (110ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
+			ProcessInitializeOnLoadAttributes (98ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,8 +116,8 @@ Domain Reload Profiling: 651ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.038 seconds
-Refreshing native plugins compatible for Editor in 28.64 ms, found 10 plugins.
+- Loaded All Assemblies, in  1.194 seconds
+Refreshing native plugins compatible for Editor in 26.13 ms, found 10 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -152,6 +152,19 @@ UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
+Preset cache invalid, rebuilding...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Thry.ThryEditor.Presets:CheckPresetCache () (at Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/Presets.cs:651)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/Presets.cs Line: 651)
+
+DisplayProgressbar: Creating Preset Cache
 Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -188,214 +201,48 @@ UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
 New input system (experimental) initialized
 Using Windows.Gaming.Input
 <RI> Input initialized.
-- Finished resetting the current domain, in  3.341 seconds
-Domain Reload Profiling: 4375ms
-	BeginReloadAssembly (123ms)
+- Finished resetting the current domain, in  4.321 seconds
+Domain Reload Profiling: 5509ms
+	BeginReloadAssembly (114ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (11ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (825ms)
-		LoadAssemblies (436ms)
+	LoadAllAssembliesAndSetupDomain (997ms)
+		LoadAssemblies (606ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (442ms)
-			TypeCache.Refresh (403ms)
-				TypeCache.ScanAssembly (386ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (3342ms)
+		AnalyzeDomain (439ms)
+			TypeCache.Refresh (378ms)
+				TypeCache.ScanAssembly (361ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (4322ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1414ms)
+		SetupLoadedEditorAssemblies (2361ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (5ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (136ms)
-			ProcessInitializeOnLoadAttributes (722ms)
-			ProcessInitializeOnLoadMethodAttributes (527ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (696ms)
+			ProcessInitializeOnLoadMethodAttributes (1516ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 33.35 ms, found 10 plugins.
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 22.44 ms, found 10 plugins.
 Preloading 2 native plugins for Editor in 0.15 ms.
-Unloading 4439 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 229 unused Assets / (1.8 MB). Loaded Objects now: 4978.
-Memory consumption went from 329.7 MB to 327.9 MB.
-Total: 90.332600 ms (FindLiveObjects: 0.395400 ms CreateObjectMapping: 0.222200 ms MarkObjects: 88.428100 ms  DeleteObjects: 1.285000 ms)
+Unloading 4695 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 369 unused Assets / (2.9 MB). Loaded Objects now: 5144.
+Memory consumption went from 355.6 MB to 352.7 MB.
+Total: 47.190500 ms (FindLiveObjects: 0.294700 ms CreateObjectMapping: 0.166600 ms MarkObjects: 45.299100 ms  DeleteObjects: 1.429100 ms)
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.221 seconds
-Refreshing native plugins compatible for Editor in 22.37 ms, found 10 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.ArgumentNullException: Value cannot be null.
-Parameter name: path
-  at System.IO.Directory.CreateDirectory (System.String path) [0x00003] in <eef08f56e2e042f1b3027eca477293d9>:0 
-  at VRC.SDKBase.Editor.VRCPackageSettings.EnsurePathExists () [0x0000b] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:45 
-  at VRC.SDKBase.Editor.VRCPackageSettings.Load () [0x00000] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:50 
-  at VRC.SDKBase.Editor.VRCPackageSettings.Create () [0x00005] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:19 
-  at VRC.SDKBase.Editor.SampleHintCreator..cctor () [0x00007] in .\Packages\com.vrchat.base\Editor\VRCSDK\SampleHintCreator.cs:18 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eef08f56e2e042f1b3027eca477293d9>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eef08f56e2e042f1b3027eca477293d9>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <347e3e2bef8c4deb82c9790c6e198135>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-CS498Project
-Mono: successfully reloaded assembly
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UdonSharp.Updater.UdonSharpDataLocator:InitializeUdonSharpData () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:75)
-UdonSharp.Updater.UdonSharpDataLocator:get_DataPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:44)
-UdonSharp.Updater.UdonSharpLocator:get_SettingsPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpLocator.cs:49)
-UdonSharpEditor.UdonSharpSettings:GetSettings () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:87)
-UdonSharpEditor.UdonSharpSettings:GetScannerBlacklist () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:160)
-UdonSharpEditor.UdonSharpSettings:FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1<string>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:182)
-UdonSharp.Compiler.CompilationContext:GetAllFilteredSourcePaths (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:212)
-UdonSharp.Compiler.CompilationContext:GetAllFilteredScripts (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:228)
-UdonSharp.UdonSharpProgramAsset:IsAnyScriptDirty () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:256)
-UdonSharp.UdonSharpProgramAsset:CompileAllCsPrograms (bool,bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:292)
-UdonSharpEditor.UdonSharpEditorUtility:UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1<VRC.Udon.UdonBehaviour>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorUtility.cs:650)
-UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1694)
-UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs line 75]
-
-[<color=#FF00FF>UdonSharp</color>] Hit exception while attempting to upgrade scene behaviours: UnityEngine.UnityException: Creating asset at path Assets/UdonSharp/UdonSharpDataLocator.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at UdonSharp.Updater.UdonSharpDataLocator.InitializeUdonSharpData () [0x0005d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:75 
-  at UdonSharp.Updater.UdonSharpDataLocator.get_DataPath () [0x00065] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:44 
-  at UdonSharp.Updater.UdonSharpLocator.get_SettingsPath () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpLocator.cs:49 
-  at UdonSharpEditor.UdonSharpSettings.GetSettings () [0x00012] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:87 
-  at UdonSharpEditor.UdonSharpSettings.GetScannerBlacklist () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:160 
-  at UdonSharpEditor.UdonSharpSettings.FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1[T] paths) [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:182 
-  at UdonSharp.Compiler.CompilationContext.GetAllFilteredSourcePaths (System.Boolean isEditorBuild) [0x0006a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:212 
-  at UdonSharp.Compiler.CompilationContext.GetAllFilteredScripts (System.Boolean isEditorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:228 
-  at UdonSharp.UdonSharpProgramAsset.IsAnyScriptDirty () [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:256 
-  at UdonSharp.UdonSharpProgramAsset.CompileAllCsPrograms (System.Boolean forceCompile, System.Boolean editorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:292 
-  at UdonSharpEditor.UdonSharpEditorUtility.UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1[T] behaviours) [0x0001a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorUtility.cs:650 
-  at UdonSharpEditor.UdonSharpEditorManager.RunAllUpgrades () [0x0001c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:1694 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UdonSharp.UdonSharpUtils:LogError (object) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs:324)
-UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1698)
-UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs Line: 324)
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-AssemblyReload
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Texel.ScreenManagerInspector:OnAssemblyReload () (at ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs:202)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs Line: 202)
-
-[VideoTXL] Found 0 ScreenManagers in scene
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Texel.ScreenManagerInspector:UpdateManagers () (at ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs:214)
-Texel.ScreenManagerInspector:OnAssemblyReload () (at ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs:203)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs Line: 214)
-
-- Finished resetting the current domain, in  2.834 seconds
-Domain Reload Profiling: 4052ms
-	BeginReloadAssembly (269ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (32ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (109ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (870ms)
-		LoadAssemblies (471ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (445ms)
-			TypeCache.Refresh (436ms)
-				TypeCache.ScanAssembly (419ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (2835ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (976ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (15ms)
-			SetLoadedEditorAssemblies (7ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (125ms)
-			ProcessInitializeOnLoadAttributes (416ms)
-			ProcessInitializeOnLoadMethodAttributes (409ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (371ms)
-Refreshing native plugins compatible for Editor in 32.12 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.18 ms.
-Unloading 4156 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 185 unused Assets / (1.8 MB). Loaded Objects now: 4995.
-Memory consumption went from 334.4 MB to 332.6 MB.
-Total: 31.029200 ms (FindLiveObjects: 0.356900 ms CreateObjectMapping: 0.185300 ms MarkObjects: 29.476900 ms  DeleteObjects: 1.009000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
@@ -412,338 +259,70 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 49110.013552 seconds.
+  Time since last request: 48877.327270 seconds.
   path: Assets/_VRSL Custom/Custom Shaders/JDC1-Functions.cginc
   artifactKey: Guid(12ec664b5d9bb0846a1bb19eb1a8a5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/JDC1-Functions.cginc using Guid(12ec664b5d9bb0846a1bb19eb1a8a5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcf6ad72bb60215180ed6a11583a796') in 0.003705 seconds
-Number of updated asset objects reloaded before import = 3
+Start importing Assets/_VRSL Custom/Custom Shaders/JDC1-Functions.cginc using Guid(12ec664b5d9bb0846a1bb19eb1a8a5aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14994d0da9869f60feed4dca733312d2') in 0.003046 seconds
+Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 1.005932 seconds.
-  path: Assets/_VRSL Custom/Models/JDC1 Head.mat
-  artifactKey: Guid(d6ce8cd3cf80bae46b950c0894336048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Models/JDC1 Head.mat using Guid(d6ce8cd3cf80bae46b950c0894336048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'VRSL/Custom/JDC1': undeclared identifier 'getValueAtCoords' at Shaders/JDC1-Functions.cginc(52) (on d3d11)
-
-Compiling Subshader: 0, Pass: <Unnamed Pass 0>, Vertex program with <no keywords>
-Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
-Shader error in 'VRSL/Custom/JDC1': undeclared identifier 'getValueAtCoords' at Shaders/JDC1-Functions.cginc(52) (on d3d11)
-
-Compiling Subshader: 0, Pass: <Unnamed Pass 0>, Vertex program with <no keywords>
-Platform defines: SHADER_API_DESKTOP UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_REFLECTION_BUFFERS UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_PBS_USE_BRDF1 UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS
-Disabled keywords: FOG_EXP FOG_EXP2 FOG_LINEAR SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_COLORSPACE_GAMMA UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_RGBM_ENCODING UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_VIRTUAL_TEXTURING
- -> (artifact id: 'c01cb391552297704bbbd46a5c9aa2a8') in 0.086882 seconds
+  Time since last request: 17.308004 seconds.
+  path: Assets/_VRSL Custom/Models
+  artifactKey: Guid(63f85eb9ade48954a8627f5833fbbfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models using Guid(63f85eb9ade48954a8627f5833fbbfce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8b05b9364dae35439dc8a9ef62fab4c') in 0.000726 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 35.203345 seconds.
-  path: Assets/_VRSL Custom/GLP_JDC1_DefaultMaterial_MaskMap.png
-  artifactKey: Guid(80be879d5860bfe45bec53d08f4af1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/GLP_JDC1_DefaultMaterial_MaskMap.png using Guid(80be879d5860bfe45bec53d08f4af1a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ed4db844a7b802ba393289b613e0c7') in 0.028137 seconds
+  Time since last request: 6.299794 seconds.
+  path: Assets/_VRSL Custom/Models/Final
+  artifactKey: Guid(398d9dbe4e8862f418c90e84ea7f6434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final using Guid(398d9dbe4e8862f418c90e84ea7f6434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eac11247e7d6817af6324d5162897cc') in 0.000696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.045091 seconds.
+  path: Assets/_VRSL Custom/Models/Final/GLP_JDC1_Base_BaseMap.png
+  artifactKey: Guid(e89c6086a13d79a4ab668e540ce7fb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final/GLP_JDC1_Base_BaseMap.png using Guid(e89c6086a13d79a4ab668e540ce7fb4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453839ca29af3f5161b543e7903cf1d5') in 0.037604 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.433 seconds
-Refreshing native plugins compatible for Editor in 32.00 ms, found 10 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.ArgumentNullException: Value cannot be null.
-Parameter name: path
-  at System.IO.Directory.CreateDirectory (System.String path) [0x00003] in <eef08f56e2e042f1b3027eca477293d9>:0 
-  at VRC.SDKBase.Editor.VRCPackageSettings.EnsurePathExists () [0x0000b] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:45 
-  at VRC.SDKBase.Editor.VRCPackageSettings.Load () [0x00000] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:50 
-  at VRC.SDKBase.Editor.VRCPackageSettings.Create () [0x00005] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:19 
-  at VRC.SDKBase.Editor.SampleHintCreator..cctor () [0x00007] in .\Packages\com.vrchat.base\Editor\VRCSDK\SampleHintCreator.cs:18 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eef08f56e2e042f1b3027eca477293d9>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eef08f56e2e042f1b3027eca477293d9>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <347e3e2bef8c4deb82c9790c6e198135>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Error saving file Library/StateCache/LayerSettings/9e/9ecc5c3c162a7aba29bafa64c8b94b7c.json. Error: System.IO.IOException: Sharing violation on path C:\Users\jevan\Documents\GitHub\CS498ProjectMain\Library\StateCache\LayerSettings\9e\9ecc5c3c162a7aba29bafa64c8b94b7c.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <eef08f56e2e042f1b3027eca477293d9>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <eef08f56e2e042f1b3027eca477293d9>:0 
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string,bool,System.Text.Encoding)
-  at System.IO.File.WriteAllText (System.String path, System.String contents, System.Text.Encoding encoding) [0x00034] in <eef08f56e2e042f1b3027eca477293d9>:0 
-  at UnityEditor.StateCache`1[T].SetState (UnityEngine.Hash128 key, T obj) [0x0004b] in <347e3e2bef8c4deb82c9790c6e198135>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.StateCache`1<UnityEditor.Tools/LayerSettings>:SetState (UnityEngine.Hash128,UnityEditor.Tools/LayerSettings)
-UnityEditor.Tools:set_lockedLayers (int)
-UnityEditor.Tools:OnEnable ()
-
-[MODES] ModeService[none].Initialize
-[MODES] ModeService[none].LoadModes
-[MODES] Loading mode Default (0) for mode-current-id-CS498Project
-Mono: successfully reloaded assembly
-CreateSerializedAsset is not supported while importing out-of-process
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UdonSharp.Updater.UdonSharpDataLocator:InitializeUdonSharpData () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:75)
-UdonSharp.Updater.UdonSharpDataLocator:get_DataPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:44)
-UdonSharp.Updater.UdonSharpLocator:get_SettingsPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpLocator.cs:49)
-UdonSharpEditor.UdonSharpSettings:GetSettings () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:87)
-UdonSharpEditor.UdonSharpSettings:GetScannerBlacklist () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:160)
-UdonSharpEditor.UdonSharpSettings:FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1<string>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:182)
-UdonSharp.Compiler.CompilationContext:GetAllFilteredSourcePaths (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:212)
-UdonSharp.Compiler.CompilationContext:GetAllFilteredScripts (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:228)
-UdonSharp.UdonSharpProgramAsset:IsAnyScriptDirty () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:256)
-UdonSharp.UdonSharpProgramAsset:CompileAllCsPrograms (bool,bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:292)
-UdonSharpEditor.UdonSharpEditorUtility:UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1<VRC.Udon.UdonBehaviour>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorUtility.cs:650)
-UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1694)
-UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-[./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs line 75]
-
-[<color=#FF00FF>UdonSharp</color>] Hit exception while attempting to upgrade scene behaviours: UnityEngine.UnityException: Creating asset at path Assets/UdonSharp/UdonSharpDataLocator.asset failed.
-  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
-  at UdonSharp.Updater.UdonSharpDataLocator.InitializeUdonSharpData () [0x0005d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:75 
-  at UdonSharp.Updater.UdonSharpDataLocator.get_DataPath () [0x00065] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:44 
-  at UdonSharp.Updater.UdonSharpLocator.get_SettingsPath () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpLocator.cs:49 
-  at UdonSharpEditor.UdonSharpSettings.GetSettings () [0x00012] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:87 
-  at UdonSharpEditor.UdonSharpSettings.GetScannerBlacklist () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:160 
-  at UdonSharpEditor.UdonSharpSettings.FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1[T] paths) [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:182 
-  at UdonSharp.Compiler.CompilationContext.GetAllFilteredSourcePaths (System.Boolean isEditorBuild) [0x0006a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:212 
-  at UdonSharp.Compiler.CompilationContext.GetAllFilteredScripts (System.Boolean isEditorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:228 
-  at UdonSharp.UdonSharpProgramAsset.IsAnyScriptDirty () [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:256 
-  at UdonSharp.UdonSharpProgramAsset.CompileAllCsPrograms (System.Boolean forceCompile, System.Boolean editorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:292 
-  at UdonSharpEditor.UdonSharpEditorUtility.UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1[T] behaviours) [0x0001a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorUtility.cs:650 
-  at UdonSharpEditor.UdonSharpEditorManager.RunAllUpgrades () [0x0001c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:1694 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UdonSharp.UdonSharpUtils:LogError (object) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs:324)
-UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1698)
-UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs Line: 324)
-
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-AssemblyReload
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Texel.ScreenManagerInspector:OnAssemblyReload () (at ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs:202)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs Line: 202)
-
-[VideoTXL] Found 0 ScreenManagers in scene
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:Log (object)
-Texel.ScreenManagerInspector:UpdateManagers () (at ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs:214)
-Texel.ScreenManagerInspector:OnAssemblyReload () (at ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs:203)
-UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
-
-(Filename: ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs Line: 214)
-
-- Finished resetting the current domain, in  2.994 seconds
-Domain Reload Profiling: 4424ms
-	BeginReloadAssembly (478ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (64ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (230ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (863ms)
-		LoadAssemblies (468ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (450ms)
-			TypeCache.Refresh (439ms)
-				TypeCache.ScanAssembly (420ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (2994ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1056ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (24ms)
-			SetLoadedEditorAssemblies (8ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (427ms)
-			ProcessInitializeOnLoadMethodAttributes (483ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (339ms)
-Refreshing native plugins compatible for Editor in 32.06 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
-Unloading 4155 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 185 unused Assets / (1.8 MB). Loaded Objects now: 5055.
-Memory consumption went from 399.1 MB to 397.2 MB.
-Total: 32.883400 ms (FindLiveObjects: 0.543000 ms CreateObjectMapping: 0.418500 ms MarkObjects: 30.100400 ms  DeleteObjects: 1.819300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
 Received Import Request.
-  Time since last request: 418.723145 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/JDC1.shader
-  artifactKey: Guid(8b61e853095b51545a120ab4d6129370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/JDC1.shader using Guid(8b61e853095b51545a120ab4d6129370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80241900650c1b7b275ce37bab162a9') in 0.002955 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/_VRSL Custom/Models/Final/GLP_JDC1_Head_Normal.png
+  artifactKey: Guid(7580f7f944c6f0c41972f907e0b329e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final/GLP_JDC1_Head_Normal.png using Guid(7580f7f944c6f0c41972f907e0b329e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0efbc70140a97b95780db01df2ba60a2') in 0.015389 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 15.490483 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/JDC1_oldunlit.shader
-  artifactKey: Guid(8b61e853095b51545a120ab4d6129370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/JDC1_oldunlit.shader using Guid(8b61e853095b51545a120ab4d6129370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc07b0b6f21c2234094c1fffa0de9339') in 0.001120 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 10.974129 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/VRSL-JDC1_oldbuggy.shader
-  artifactKey: Guid(cfce95ddbc0ad674eae763a080f2c688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/VRSL-JDC1_oldbuggy.shader using Guid(cfce95ddbc0ad674eae763a080f2c688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197576b83e36700a427385a6e213c590') in 0.000687 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.342118 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/JDC1-new.shader
-  artifactKey: Guid(a338d32866678a64ead1d6c461c35ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/JDC1-new.shader using Guid(a338d32866678a64ead1d6c461c35ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20fb71d262f002776cc287e55b6b1a4') in 0.000714 seconds
+  Time since last request: 0.000020 seconds.
+  path: Assets/_VRSL Custom/Models/Final/GLP_JDC1_Head_BaseMap.png
+  artifactKey: Guid(bd383892b3710814ab9ccb9f43b3c3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final/GLP_JDC1_Head_BaseMap.png using Guid(bd383892b3710814ab9ccb9f43b3c3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb58c654726833accd4ae411e412380e') in 0.019925 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.519442 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/JDC1-new 1.shader
-  artifactKey: Guid(4d8aa860ba80057488d1eb3e8462b9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/JDC1-new 1.shader using Guid(4d8aa860ba80057488d1eb3e8462b9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7c1968504bcabcf746f9647e111bfa') in 0.000743 seconds
+  Time since last request: 20.725977 seconds.
+  path: Assets/_VRSL Custom/Models/Final/GLP_JDC1_Base_MaskMap.png
+  artifactKey: Guid(a916ab5cec33f214fba8351afce4b5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final/GLP_JDC1_Base_MaskMap.png using Guid(a916ab5cec33f214fba8351afce4b5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0941de96906c9a87a737048ce452ea') in 0.010522 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 7.751107 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/JDC1-new 1_oldlit.shader
-  artifactKey: Guid(4d8aa860ba80057488d1eb3e8462b9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/JDC1-new 1_oldlit.shader using Guid(4d8aa860ba80057488d1eb3e8462b9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cbcbfb8ad466975877b4397d10d3017') in 0.000761 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 11.716841 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/JDC1.shader
-  artifactKey: Guid(a338d32866678a64ead1d6c461c35ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/JDC1.shader using Guid(a338d32866678a64ead1d6c461c35ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '387988d47ee0fea29ff38c32bb4a3089') in 0.000992 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 5.337665 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/VRSL-JDC1-Functions_old.cginc
-  artifactKey: Guid(ae76b29212a8b0e49b2750115872f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/VRSL-JDC1-Functions_old.cginc using Guid(ae76b29212a8b0e49b2750115872f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72cadb6d239fa9faaf8dd86a0c29bb8f') in 0.001021 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 108.967646 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/JDC1-new 1_oldlit.shader
-  artifactKey: Guid(4d8aa860ba80057488d1eb3e8462b9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/JDC1-new 1_oldlit.shader using Guid(4d8aa860ba80057488d1eb3e8462b9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3811faf6ce17990c994a9277cee91f4c') in 0.001014 seconds
-Number of updated asset objects reloaded before import = 2
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 12.723399 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/JDC1.shader
-  artifactKey: Guid(a338d32866678a64ead1d6c461c35ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/JDC1.shader using Guid(a338d32866678a64ead1d6c461c35ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46a54dd1bfda5b720311c8a21f0611b') in 0.001025 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 17.989422 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/VRSL-JDC1_oldbuggy.shader
-  artifactKey: Guid(cfce95ddbc0ad674eae763a080f2c688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/VRSL-JDC1_oldbuggy.shader using Guid(cfce95ddbc0ad674eae763a080f2c688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559a58619d0eaa8f3562e793d84e7ff7') in 0.000745 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 7.493603 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/JDC1-new 1_oldlit.shader
-  artifactKey: Guid(4d8aa860ba80057488d1eb3e8462b9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/JDC1-new 1_oldlit.shader using Guid(4d8aa860ba80057488d1eb3e8462b9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3dd18d7505f7bc54cccb59c63e3b2f') in 0.000786 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 2.914476 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/JDC1_oldunlit.shader
-  artifactKey: Guid(8b61e853095b51545a120ab4d6129370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/JDC1_oldunlit.shader using Guid(8b61e853095b51545a120ab4d6129370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7d3992d7fee5fb391fa8a9429c2513') in 0.000818 seconds
+  Time since last request: 0.000013 seconds.
+  path: Assets/_VRSL Custom/Models/Final/GLP_JDC1_Head_MaskMap.png
+  artifactKey: Guid(ac5ff453f713ca946afd6d747468c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final/GLP_JDC1_Head_MaskMap.png using Guid(ac5ff453f713ca946afd6d747468c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '184304588db0e5b4ac01c5995746be0e') in 0.009298 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 1.242625 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/VRSL-JDC1_oldbuggy.shader
-  artifactKey: Guid(cfce95ddbc0ad674eae763a080f2c688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/VRSL-JDC1_oldbuggy.shader using Guid(cfce95ddbc0ad674eae763a080f2c688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778d0529fee3164214fcbee379a6d5bd') in 0.000718 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 246.726087 seconds.
-  path: Assets/_VRSL Custom/Models/JDC1 Head.mat
-  artifactKey: Guid(d6ce8cd3cf80bae46b950c0894336048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Models/JDC1 Head.mat using Guid(d6ce8cd3cf80bae46b950c0894336048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4172796c7fccec723228378943612e6') in 0.515753 seconds
-Number of updated asset objects reloaded before import = 3
-Number of asset objects unloaded after import = 6
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

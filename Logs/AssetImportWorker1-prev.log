@@ -11,13 +11,13 @@ E:\Unity\Installs\2022.3.6f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/jevan/Documents/GitHub/CS498ProjectMain
+C:/Users/jevan/Documents/GitHub/CS498Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59477
-Successfully changed project path to: C:/Users/jevan/Documents/GitHub/CS498ProjectMain
-C:/Users/jevan/Documents/GitHub/CS498ProjectMain
+61692
+Successfully changed project path to: C:/Users/jevan/Documents/GitHub/CS498Project
+C:/Users/jevan/Documents/GitHub/CS498Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,15 +49,15 @@ C:/Users/jevan/Documents/GitHub/CS498ProjectMain
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [41744] Host "[IP] 192.168.51.39 [Port] 0 [Flags] 2 [Guid] 2373913120 [EditorId] 2373913120 [Version] 1048832 [Id] WindowsEditor(7,RadiantDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [44988] Host "[IP] 192.168.51.39 [Port] 0 [Flags] 2 [Guid] 1057589139 [EditorId] 1057589139 [Version] 1048832 [Id] WindowsEditor(7,RadiantDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [41744] Host "[IP] 192.168.51.39 [Port] 0 [Flags] 2 [Guid] 2373913120 [EditorId] 2373913120 [Version] 1048832 [Id] WindowsEditor(7,RadiantDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [44988] Host "[IP] 192.168.51.39 [Port] 0 [Flags] 2 [Guid] 1057589139 [EditorId] 1057589139 [Version] 1048832 [Id] WindowsEditor(7,RadiantDesktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 50.91 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 1.22 ms.
+Refreshing native plugins compatible for Editor in 50.76 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 1.23 ms.
 Initialize engine version: 2022.3.6f1 (b9e6e7e9fa2d)
 [Subsystems] Discovering subsystems at path E:/Unity/Installs/2022.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/jevan/Documents/GitHub/CS498ProjectMain/Assets
+[Subsystems] Discovering subsystems at path C:/Users/jevan/Documents/GitHub/CS498Project/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'E:/Unity/Installs/2022.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'E:/Unity/Installs/2022.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/Unity/Installs/2022.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56760
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/Unity/Installs/2022.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/Unity/Installs/2022.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003720 seconds.
-- Loaded All Assemblies, in  0.310 seconds
+Registered in 0.004671 seconds.
+- Loaded All Assemblies, in  0.316 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.333 seconds
-Domain Reload Profiling: 643ms
-	BeginReloadAssembly (79ms)
+- Finished resetting the current domain, in  0.290 seconds
+Domain Reload Profiling: 607ms
+	BeginReloadAssembly (83ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (138ms)
-		LoadAssemblies (78ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (139ms)
+		LoadAssemblies (84ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (135ms)
-			TypeCache.Refresh (134ms)
-				TypeCache.ScanAssembly (123ms)
+		AnalyzeDomain (136ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (125ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (333ms)
+	FinalizeReload (291ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (273ms)
+		SetupLoadedEditorAssemblies (238ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (100ms)
-			SetLoadedEditorAssemblies (4ms)
+			InitializePlatformSupportModulesInManaged (93ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (118ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
+			ProcessInitializeOnLoadAttributes (97ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,8 +116,8 @@ Domain Reload Profiling: 643ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.040 seconds
-Refreshing native plugins compatible for Editor in 27.79 ms, found 10 plugins.
+- Loaded All Assemblies, in  1.177 seconds
+Refreshing native plugins compatible for Editor in 25.96 ms, found 10 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Package Manager log level set to [2]
@@ -140,6 +140,42 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eef08f56e2e042f1b3027eca477293d9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <347e3e2bef8c4deb82c9790c6e198135>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Preset cache invalid, rebuilding...
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Thry.ThryEditor.Presets:CheckPresetCache () (at Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/Presets.cs:651)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+(Filename: Assets/_PoiyomiShaders/Scripts/ThryEditor/Editor/Presets.cs Line: 651)
+
+DisplayProgressbar: Creating Preset Cache
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.IOException: Sharing violation on path C:\Users\jevan\Documents\GitHub\CS498Project\Thry\preset_cache.txt
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int)
+  at System.IO.File.Create (System.String path, System.Int32 bufferSize) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.IO.File.Create (System.String path) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at Thry.FileHelper.CreateFileWithDirectories (System.String path) [0x0001b] in C:\Users\jevan\Documents\GitHub\CS498Project\Assets\_PoiyomiShaders\Scripts\ThryEditor\Editor\Helper.cs:484 
+  at Thry.ThryEditor.Presets.Save () [0x00000] in C:\Users\jevan\Documents\GitHub\CS498Project\Assets\_PoiyomiShaders\Scripts\ThryEditor\Editor\Presets.cs:205 
+  at Thry.ThryEditor.Presets.AddPreset (UnityEngine.Material material) [0x001ca] in C:\Users\jevan\Documents\GitHub\CS498Project\Assets\_PoiyomiShaders\Scripts\ThryEditor\Editor\Presets.cs:323 
+  at Thry.ThryEditor.Presets.CreatePresetCache () [0x00050] in C:\Users\jevan\Documents\GitHub\CS498Project\Assets\_PoiyomiShaders\Scripts\ThryEditor\Editor\Presets.cs:170 
+  at Thry.ThryEditor.Presets.CheckPresetCache () [0x000c0] in C:\Users\jevan\Documents\GitHub\CS498Project\Assets\_PoiyomiShaders\Scripts\ThryEditor\Editor\Presets.cs:652 
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eef08f56e2e042f1b3027eca477293d9>:0 
    --- End of inner exception stack trace ---
@@ -188,47 +224,47 @@ UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
 New input system (experimental) initialized
 Using Windows.Gaming.Input
 <RI> Input initialized.
-- Finished resetting the current domain, in  3.303 seconds
-Domain Reload Profiling: 4340ms
-	BeginReloadAssembly (125ms)
+- Finished resetting the current domain, in  3.290 seconds
+Domain Reload Profiling: 4460ms
+	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (36ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (825ms)
-		LoadAssemblies (432ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (978ms)
+		LoadAssemblies (604ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (448ms)
-			TypeCache.Refresh (407ms)
-				TypeCache.ScanAssembly (388ms)
+		AnalyzeDomain (419ms)
+			TypeCache.Refresh (376ms)
+				TypeCache.ScanAssembly (359ms)
 			ScanForSourceGeneratedMonoScriptInfo (30ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (3304ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (3290ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1387ms)
+		SetupLoadedEditorAssemblies (1360ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (6ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (138ms)
-			ProcessInitializeOnLoadAttributes (716ms)
-			ProcessInitializeOnLoadMethodAttributes (503ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (702ms)
+			ProcessInitializeOnLoadMethodAttributes (505ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 35.67 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.19 ms.
-Unloading 4439 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 229 unused Assets / (1.8 MB). Loaded Objects now: 4978.
-Memory consumption went from 329.7 MB to 327.9 MB.
-Total: 89.631300 ms (FindLiveObjects: 0.327400 ms CreateObjectMapping: 0.171500 ms MarkObjects: 87.472800 ms  DeleteObjects: 1.657000 ms)
+Refreshing native plugins compatible for Editor in 39.14 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.21 ms.
+Unloading 4569 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 238 unused Assets / (1.8 MB). Loaded Objects now: 5100.
+Memory consumption went from 337.0 MB to 335.1 MB.
+Total: 63.161300 ms (FindLiveObjects: 0.601800 ms CreateObjectMapping: 0.542200 ms MarkObjects: 60.840700 ms  DeleteObjects: 1.174900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -246,17 +282,149 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 46513.218545 seconds.
-  path: Assets/_VRSL Custom/Custom Shaders/JDC1-new 1.shader
-  artifactKey: Guid(4d8aa860ba80057488d1eb3e8462b9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Custom Shaders/JDC1-new 1.shader using Guid(4d8aa860ba80057488d1eb3e8462b9f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2905e574152f253c1965f3b28ced060') in 0.008189 seconds
+  Time since last request: 48822.231586 seconds.
+  path: Assets/_VRSL Custom/Models/GLP_JDC1 8.fbx
+  artifactKey: Guid(1649b32d03fd93a46b9175a9c3ccb90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/GLP_JDC1 8.fbx using Guid(1649b32d03fd93a46b9175a9c3ccb90a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ce124e24de42819e44ca88f5b660d67') in 0.113242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 54.979280 seconds.
+  path: Assets/_VRSL Custom/Custom Shaders/JDC1.shader
+  artifactKey: Guid(a338d32866678a64ead1d6c461c35ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Custom Shaders/JDC1.shader using Guid(a338d32866678a64ead1d6c461c35ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4343e5166f0f20c88241233676d6f249') in 0.001139 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
+Received Import Request.
+  Time since last request: 23.666541 seconds.
+  path: Assets/_VRSL Custom/Models/Final/GLP_JDC1_Base_MaskMap.png
+  artifactKey: Guid(a916ab5cec33f214fba8351afce4b5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final/GLP_JDC1_Base_MaskMap.png using Guid(a916ab5cec33f214fba8351afce4b5bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfb43bb40197cf75ca2c9000b0af649') in 0.033163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_VRSL Custom/Models/Final/GLP_JDC1_Head_MaskMap.png
+  artifactKey: Guid(ac5ff453f713ca946afd6d747468c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final/GLP_JDC1_Head_MaskMap.png using Guid(ac5ff453f713ca946afd6d747468c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88f2a2e96dfe67445914e2842acbda1') in 0.016911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_VRSL Custom/Models/Final/GLP_JDC1_Base_Normal.png
+  artifactKey: Guid(6fd5965fae428704a83817331798e052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final/GLP_JDC1_Base_Normal.png using Guid(6fd5965fae428704a83817331798e052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e189c7d3702aeb9377c50992df3edc65') in 0.021708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.727549 seconds.
+  path: Assets/_VRSL Custom/Models/Final/GLP_JDC1_Base_Normal.png
+  artifactKey: Guid(6fd5965fae428704a83817331798e052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final/GLP_JDC1_Base_Normal.png using Guid(6fd5965fae428704a83817331798e052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c9fba1225e82e0d03d800ef2f225b2') in 0.010522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_VRSL Custom/Models/Final/GLP_JDC1_Head_Normal.png
+  artifactKey: Guid(7580f7f944c6f0c41972f907e0b329e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final/GLP_JDC1_Head_Normal.png using Guid(7580f7f944c6f0c41972f907e0b329e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6d6e5f7421b79ff9463852a73e6047') in 0.007684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/_VRSL Custom/Models/Final/GLP_JDC1_Head_BaseMap.png
+  artifactKey: Guid(bd383892b3710814ab9ccb9f43b3c3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final/GLP_JDC1_Head_BaseMap.png using Guid(bd383892b3710814ab9ccb9f43b3c3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2ed8b73ea6b97a15fb9b852b28ec36') in 0.010229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 293.187628 seconds.
+  path: Assets/_VRSL Custom/Models/Final 1/Base_Height.png
+  artifactKey: Guid(e4b015efc786db84aa9a6f8cd5e3becb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 1/Base_Height.png using Guid(e4b015efc786db84aa9a6f8cd5e3becb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261a5c6f7c41aae82d773701c2b6d9fb') in 0.021906 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_VRSL Custom/Models/Final 1/Head_Normal.png
+  artifactKey: Guid(8795e287b2c72e244a8a01107f933c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 1/Head_Normal.png using Guid(8795e287b2c72e244a8a01107f933c52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe6651825f16cbe8c196cd36fc3efe17') in 0.025910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_VRSL Custom/Models/Final 1/Head_Height.png
+  artifactKey: Guid(3dd197348250ad244a7583ccacb19e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 1/Head_Height.png using Guid(3dd197348250ad244a7583ccacb19e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6351a8829e300ed4bebfd3e3b1177680') in 0.017457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/_VRSL Custom/Models/Final 1/Base_Roughness.png
+  artifactKey: Guid(1be32d417e0c16a44a77cbdaaadae3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 1/Base_Roughness.png using Guid(1be32d417e0c16a44a77cbdaaadae3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64e4dee1ef8474a9cce891fa02751310') in 0.018342 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_VRSL Custom/Models/Final 1/Base_Normal_OpenGL.png
+  artifactKey: Guid(ef980340348f0d44aae0235a650e57d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 1/Base_Normal_OpenGL.png using Guid(ef980340348f0d44aae0235a650e57d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f299ffe0d2433835c35af5d1c0cb5ed0') in 0.010555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_VRSL Custom/Models/Final 1/Head_Metallic.png
+  artifactKey: Guid(fbe216657f5ab0242af9b299bb750b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 1/Head_Metallic.png using Guid(fbe216657f5ab0242af9b299bb750b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46aa30fb7edfdb68ea52ed404a45bc0') in 0.013948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.760704 seconds.
+  path: Assets/_VRSL Custom/Models/Final 1/Base_Normal_OpenGL.png
+  artifactKey: Guid(ef980340348f0d44aae0235a650e57d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 1/Base_Normal_OpenGL.png using Guid(ef980340348f0d44aae0235a650e57d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd12b4df1475a255d058f959b90258f08') in 0.017379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_VRSL Custom/Models/Final 1/Head_Normal_OpenGL.png
+  artifactKey: Guid(61971c996a0a8174b81091d8e7676691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 1/Head_Normal_OpenGL.png using Guid(61971c996a0a8174b81091d8e7676691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c532eeff1e6c262a79e4b247ca92575') in 0.012184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.223 seconds
-Refreshing native plugins compatible for Editor in 23.74 ms, found 10 plugins.
+Removing scripting define AUDIOLINK_V1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ArchiTech.SDK.Editor.ATEditorUtility:RemoveScriptingDefine (string) (at ./Packages/dev.architech.sdk/Editor/ATEditorUtility.cs:572)
+ArchiTech.ProTV.Editor.AudioLinkScriptingDefineHandler:ReloadDefines () (at ./Packages/dev.architech.protv/Editor/Helpers/ProTVEditorUtility.cs:665)
+UnityEditor.AssemblyReloadEvents:OnBeforeAssemblyReload ()
+
+(Filename: ./Packages/dev.architech.sdk/Editor/ATEditorUtility.cs Line: 572)
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+- Loaded All Assemblies, in  1.029 seconds
+Refreshing native plugins compatible for Editor in 25.45 ms, found 10 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -274,6 +442,19 @@ UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,st
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Set Scripting Define Symbols for selected build target (Standalone) to: UNITY_POST_PROCESSING_STACK_V2;UDONSHARP;UDON;VRC_SDK_VRCSDK3;AUDIOLINK;AVPRO_IMPORTED;TPS;AUDIOLINK_V1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogFormat (string,object[])
+AudioLink.Editor.AudioLinkDefineManager:AddDefinesIfMissing (UnityEditor.BuildTargetGroup,string[]) (at ./Packages/com.llealloo.audiolink/Editor/Scripts/AudioLinkDefineManager.cs:41)
+AudioLink.Editor.AudioLinkDefineManager:.cctor () (at ./Packages/com.llealloo.audiolink/Editor/Scripts/AudioLinkDefineManager.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Packages/com.llealloo.audiolink/Editor/Scripts/AudioLinkDefineManager.cs Line: 41)
 
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
@@ -362,46 +543,237 @@ UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
 
 (Filename: ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs Line: 214)
 
-- Finished resetting the current domain, in  2.845 seconds
-Domain Reload Profiling: 4065ms
-	BeginReloadAssembly (276ms)
+- Finished resetting the current domain, in  2.948 seconds
+Domain Reload Profiling: 3974ms
+	BeginReloadAssembly (284ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (34ms)
+		DisableScriptedObjects (30ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (114ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
+		CreateAndSetChildDomain (122ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (16ms)
 	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (867ms)
-		LoadAssemblies (466ms)
+	LoadAllAssembliesAndSetupDomain (661ms)
+		LoadAssemblies (369ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (446ms)
-			TypeCache.Refresh (437ms)
-				TypeCache.ScanAssembly (421ms)
+		AnalyzeDomain (336ms)
+			TypeCache.Refresh (324ms)
+				TypeCache.ScanAssembly (311ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (2846ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2948ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (930ms)
+		SetupLoadedEditorAssemblies (1036ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (120ms)
-			ProcessInitializeOnLoadAttributes (410ms)
-			ProcessInitializeOnLoadMethodAttributes (378ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (476ms)
+			ProcessInitializeOnLoadMethodAttributes (402ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (394ms)
-Refreshing native plugins compatible for Editor in 33.79 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.18 ms.
-Unloading 4155 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 185 unused Assets / (1.8 MB). Loaded Objects now: 4996.
-Memory consumption went from 334.2 MB to 332.4 MB.
-Total: 31.054100 ms (FindLiveObjects: 0.364200 ms CreateObjectMapping: 0.177900 ms MarkObjects: 29.664500 ms  DeleteObjects: 0.846200 ms)
+		AwakeInstancesAfterBackupRestoration (325ms)
+Refreshing native plugins compatible for Editor in 32.38 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.19 ms.
+Unloading 4278 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 187 unused Assets / (1.8 MB). Loaded Objects now: 5163.
+Memory consumption went from 339.4 MB to 337.6 MB.
+Total: 32.760000 ms (FindLiveObjects: 0.357100 ms CreateObjectMapping: 0.195900 ms MarkObjects: 31.317600 ms  DeleteObjects: 0.888200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Removing scripting define AUDIOLINK_V1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ArchiTech.SDK.Editor.ATEditorUtility:RemoveScriptingDefine (string) (at ./Packages/dev.architech.sdk/Editor/ATEditorUtility.cs:572)
+ArchiTech.ProTV.Editor.AudioLinkScriptingDefineHandler:ReloadDefines () (at ./Packages/dev.architech.protv/Editor/Helpers/ProTVEditorUtility.cs:665)
+UnityEditor.AssemblyReloadEvents:OnBeforeAssemblyReload ()
+
+(Filename: ./Packages/dev.architech.sdk/Editor/ATEditorUtility.cs Line: 572)
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+- Loaded All Assemblies, in  1.196 seconds
+Refreshing native plugins compatible for Editor in 24.22 ms, found 10 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.ArgumentNullException: Value cannot be null.
+Parameter name: path
+  at System.IO.Directory.CreateDirectory (System.String path) [0x00003] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at VRC.SDKBase.Editor.VRCPackageSettings.EnsurePathExists () [0x0000b] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:45 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Load () [0x00000] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:50 
+  at VRC.SDKBase.Editor.VRCPackageSettings.Create () [0x00005] in .\Packages\com.vrchat.base\Editor\VRCSDK\Dependencies\VRChat\VRCPackageSettings.cs:19 
+  at VRC.SDKBase.Editor.SampleHintCreator..cctor () [0x00007] in .\Packages\com.vrchat.base\Editor\VRCSDK\SampleHintCreator.cs:18 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Set Scripting Define Symbols for selected build target (Standalone) to: UNITY_POST_PROCESSING_STACK_V2;UDONSHARP;UDON;VRC_SDK_VRCSDK3;AUDIOLINK;AVPRO_IMPORTED;TPS;AUDIOLINK_V1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogFormat (string,object[])
+AudioLink.Editor.AudioLinkDefineManager:AddDefinesIfMissing (UnityEditor.BuildTargetGroup,string[]) (at ./Packages/com.llealloo.audiolink/Editor/Scripts/AudioLinkDefineManager.cs:41)
+AudioLink.Editor.AudioLinkDefineManager:.cctor () (at ./Packages/com.llealloo.audiolink/Editor/Scripts/AudioLinkDefineManager.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Packages/com.llealloo.audiolink/Editor/Scripts/AudioLinkDefineManager.cs Line: 41)
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:267 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <eef08f56e2e042f1b3027eca477293d9>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <eef08f56e2e042f1b3027eca477293d9>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <347e3e2bef8c4deb82c9790c6e198135>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-CS498Project
+Mono: successfully reloaded assembly
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UdonSharp.Updater.UdonSharpDataLocator:InitializeUdonSharpData () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:75)
+UdonSharp.Updater.UdonSharpDataLocator:get_DataPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs:44)
+UdonSharp.Updater.UdonSharpLocator:get_SettingsPath () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpLocator.cs:49)
+UdonSharpEditor.UdonSharpSettings:GetSettings () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:87)
+UdonSharpEditor.UdonSharpSettings:GetScannerBlacklist () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:160)
+UdonSharpEditor.UdonSharpSettings:FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1<string>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Editors/UdonSharpSettings.cs:182)
+UdonSharp.Compiler.CompilationContext:GetAllFilteredSourcePaths (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:212)
+UdonSharp.Compiler.CompilationContext:GetAllFilteredScripts (bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/Compiler/CompilationContext.cs:228)
+UdonSharp.UdonSharpProgramAsset:IsAnyScriptDirty () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:256)
+UdonSharp.UdonSharpProgramAsset:CompileAllCsPrograms (bool,bool) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpProgramAsset.cs:292)
+UdonSharpEditor.UdonSharpEditorUtility:UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1<VRC.Udon.UdonBehaviour>) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorUtility.cs:650)
+UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1694)
+UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+[./Packages/com.vrchat.worlds/Integrations/UdonSharp/Runtime/UdonSharpDataLocator.cs line 75]
+
+[<color=#FF00FF>UdonSharp</color>] Hit exception while attempting to upgrade scene behaviours: UnityEngine.UnityException: Creating asset at path Assets/UdonSharp/UdonSharpDataLocator.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at UdonSharp.Updater.UdonSharpDataLocator.InitializeUdonSharpData () [0x0005d] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:75 
+  at UdonSharp.Updater.UdonSharpDataLocator.get_DataPath () [0x00065] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpDataLocator.cs:44 
+  at UdonSharp.Updater.UdonSharpLocator.get_SettingsPath () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Runtime\UdonSharpLocator.cs:49 
+  at UdonSharpEditor.UdonSharpSettings.GetSettings () [0x00012] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:87 
+  at UdonSharpEditor.UdonSharpSettings.GetScannerBlacklist () [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:160 
+  at UdonSharpEditor.UdonSharpSettings.FilterBlacklistedPaths (System.Collections.Generic.IEnumerable`1[T] paths) [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Editors\UdonSharpSettings.cs:182 
+  at UdonSharp.Compiler.CompilationContext.GetAllFilteredSourcePaths (System.Boolean isEditorBuild) [0x0006a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:212 
+  at UdonSharp.Compiler.CompilationContext.GetAllFilteredScripts (System.Boolean isEditorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\Compiler\CompilationContext.cs:228 
+  at UdonSharp.UdonSharpProgramAsset.IsAnyScriptDirty () [0x00006] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:256 
+  at UdonSharp.UdonSharpProgramAsset.CompileAllCsPrograms (System.Boolean forceCompile, System.Boolean editorBuild) [0x00000] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpProgramAsset.cs:292 
+  at UdonSharpEditor.UdonSharpEditorUtility.UpgradeSceneBehaviours (System.Collections.Generic.IEnumerable`1[T] behaviours) [0x0001a] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorUtility.cs:650 
+  at UdonSharpEditor.UdonSharpEditorManager.RunAllUpgrades () [0x0001c] in .\Packages\com.vrchat.worlds\Integrations\UdonSharp\Editor\UdonSharpEditorManager.cs:1694 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UdonSharp.UdonSharpUtils:LogError (object) (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs:324)
+UdonSharpEditor.UdonSharpEditorManager:RunAllUpgrades () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:1698)
+UdonSharpEditor.UdonSharpEditorManager:RunPostAssemblyBuildRefresh () (at ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpEditorManager.cs:132)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+(Filename: ./Packages/com.vrchat.worlds/Integrations/UdonSharp/Editor/UdonSharpUtils.cs Line: 324)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+AssemblyReload
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Texel.ScreenManagerInspector:OnAssemblyReload () (at ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs:202)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+(Filename: ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs Line: 202)
+
+[VideoTXL] Found 0 ScreenManagers in scene
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+Texel.ScreenManagerInspector:UpdateManagers () (at ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs:214)
+Texel.ScreenManagerInspector:OnAssemblyReload () (at ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs:203)
+UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
+
+(Filename: ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs Line: 214)
+
+- Finished resetting the current domain, in  3.095 seconds
+Domain Reload Profiling: 4287ms
+	BeginReloadAssembly (334ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (151ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (764ms)
+		LoadAssemblies (389ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (435ms)
+			TypeCache.Refresh (425ms)
+				TypeCache.ScanAssembly (408ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (3095ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1011ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (410ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (347ms)
+Refreshing native plugins compatible for Editor in 25.83 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.11 ms.
+Unloading 4279 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 186 unused Assets / (1.8 MB). Loaded Objects now: 5180.
+Memory consumption went from 404.0 MB to 402.2 MB.
+Total: 30.426200 ms (FindLiveObjects: 0.379500 ms CreateObjectMapping: 0.263800 ms MarkObjects: 28.635600 ms  DeleteObjects: 1.145900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -420,17 +792,725 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2597.798804 seconds.
-  path: Assets/_VRSL Custom/Models/JDC1 Head 1.mat
-  artifactKey: Guid(48f38515554e11246b0a556272607615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_VRSL Custom/Models/JDC1 Head 1.mat using Guid(48f38515554e11246b0a556272607615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca94ffa41c58fc9b655e86c9b1404e1') in 0.581407 seconds
-Number of updated asset objects reloaded before import = 3
+  Time since last request: 402.308780 seconds.
+  path: Assets/_VRSL Custom/Models/Final 1/Base_Metallic.png
+  artifactKey: Guid(77331e842b2ef4744b18847cd0123aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 1/Base_Metallic.png using Guid(77331e842b2ef4744b18847cd0123aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1f46b7113fc5238ceb9562e84c1c400') in 0.027370 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 149.332086 seconds.
+  path: Assets/_VRSL Custom/Models/Final 1/Base_Height.png
+  artifactKey: Guid(e4b015efc786db84aa9a6f8cd5e3becb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 1/Base_Height.png using Guid(e4b015efc786db84aa9a6f8cd5e3becb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d43305dec72f1b287e1e2d9714447f7') in 0.020534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 365.309946 seconds.
+  path: Packages/com.acchosen.vr-stage-lighting/Runtime/Textures/StaticLightTextures/6x4EmissionMap.png
+  artifactKey: Guid(9598e869fe4853440bf538bceaef43f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.acchosen.vr-stage-lighting/Runtime/Textures/StaticLightTextures/6x4EmissionMap.png using Guid(9598e869fe4853440bf538bceaef43f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8d1019c12ebbab7dfa275f04be6862') in 0.023167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000311 seconds.
+  path: Assets/AVProVideo/Runtime/Resources/Textures/AVProVideo-NullPlayer-Frame1.png
+  artifactKey: Guid(855eae39e9698944daf581d77f6cef3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AVProVideo/Runtime/Resources/Textures/AVProVideo-NullPlayer-Frame1.png using Guid(855eae39e9698944daf581d77f6cef3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '085bcf56796c36e2a19173b4da0814ed') in 0.013977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.acchosen.vr-stage-lighting/Runtime/Other/Skybox/back.png
+  artifactKey: Guid(6211875d5dcbbf94c9287ff64e06e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.acchosen.vr-stage-lighting/Runtime/Other/Skybox/back.png using Guid(6211875d5dcbbf94c9287ff64e06e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21842b60cd70e010d9d0b982921800c5') in 0.021829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.acchosen.vr-stage-lighting/Runtime/Other/Skybox/bottom.png
+  artifactKey: Guid(598c8d1d75b53454aa051eded80c2d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.acchosen.vr-stage-lighting/Runtime/Other/Skybox/bottom.png using Guid(598c8d1d75b53454aa051eded80c2d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7dfe45ee8b301a547c643fe6eb79c4c') in 0.019686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/AVProVideo/Demos/Common/MediaPlayerUI/BackingGradient.png
+  artifactKey: Guid(e8fa92438398bb240b71be8b23d90df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AVProVideo/Demos/Common/MediaPlayerUI/BackingGradient.png using Guid(e8fa92438398bb240b71be8b23d90df5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222b529ba5488dcd9ec1d026dd5faebb') in 0.024454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/AVProVideo/Runtime/Resources/Textures/AVProVideo-NullPlayer-Frame0.png
+  artifactKey: Guid(8bef6179fcd26aa4c89b766c6b95490a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AVProVideo/Runtime/Resources/Textures/AVProVideo-NullPlayer-Frame0.png using Guid(8bef6179fcd26aa4c89b766c6b95490a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6800c30c817d25ab12e7324ec07833a') in 0.014211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4274ea987ee9ab3cb7a5b9bed3237389') in 0.045435 seconds
+Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b622a0058e4aee85678237fc6622a4c') in 0.016283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mochie/Unity/Textures/Distortion.tif
+  artifactKey: Guid(89819f8cb0b9e5d418f6e90ca96ac9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mochie/Unity/Textures/Distortion.tif using Guid(89819f8cb0b9e5d418f6e90ca96ac9c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae9dfa66c68a8f2653ac93d3926289c') in 0.020554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_PoiyomiShaders/Textures/LUTs/dfg-multiscatter-cloth.exr
+  artifactKey: Guid(76d65cbce584df7449699fb8406f60ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/LUTs/dfg-multiscatter-cloth.exr using Guid(76d65cbce584df7449699fb8406f60ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f13b6eb15f14866b72035467e601761') in 0.014080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Packages/com.acchosen.vr-stage-lighting/Editor/Resources/discord-logo.png
+  artifactKey: Guid(6490864294abb20478de1f93cfdc9bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.acchosen.vr-stage-lighting/Editor/Resources/discord-logo.png using Guid(6490864294abb20478de1f93cfdc9bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3320b4ff3f5c798b340ff24598de940e') in 0.012150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Packages/com.acchosen.vr-stage-lighting/Runtime/Textures/StaticLightTextures/13-White3.png
+  artifactKey: Guid(f0fbc0f5f5be6794da122c2d5a25ac41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.acchosen.vr-stage-lighting/Runtime/Textures/StaticLightTextures/13-White3.png using Guid(f0fbc0f5f5be6794da122c2d5a25ac41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb442e730809bb348e6bf83f5ee77e5c') in 0.015715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/AVProVideo/Editor/Resources/AVProVideoIcon.png
+  artifactKey: Guid(bb83b41b53a59874692b83eab5873998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AVProVideo/Editor/Resources/AVProVideoIcon.png using Guid(bb83b41b53a59874692b83eab5873998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b5903d5e62aa1e90747e8e656bf2ff') in 0.014725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mochie/Unity/Textures/CausticsTex.png
+  artifactKey: Guid(260d71fa929534a49aa9a5efb274f6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mochie/Unity/Textures/CausticsTex.png using Guid(260d71fa929534a49aa9a5efb274f6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7dd4d5eb0348fede05e929aa52dfe7') in 0.013078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/USharpVideo/Textures/BlackSwatch.png
+  artifactKey: Guid(e5b174a8d905de44d938cdd3adf85546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/USharpVideo/Textures/BlackSwatch.png using Guid(e5b174a8d905de44d938cdd3adf85546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e3d1bf6e692f7412c2c71a50c52928') in 0.015330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.acchosen.vr-stage-lighting/Runtime/Textures/DiscoBallNMap.jpg
+  artifactKey: Guid(5fd22b1dd1542c0408de3b65888955fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.acchosen.vr-stage-lighting/Runtime/Textures/DiscoBallNMap.jpg using Guid(5fd22b1dd1542c0408de3b65888955fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec56e9cab2c16073c1e1f099d7950cb') in 0.014153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_PoiyomiShaders/Presets/SpecialFX/Pathing/50 by 50 orthogonal maze 3.png
+  artifactKey: Guid(792953ce39b060247a0e7f5f41ff47df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Presets/SpecialFX/Pathing/50 by 50 orthogonal maze 3.png using Guid(792953ce39b060247a0e7f5f41ff47df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee13194673c92c18d273e7280cdc5718') in 0.020315 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mochie/Unity/Textures/Caustics Array.asset
+  artifactKey: Guid(c0fa48a763b58a64aa5dbafeb6a4c84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mochie/Unity/Textures/Caustics Array.asset using Guid(c0fa48a763b58a64aa5dbafeb6a4c84a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bbd76eeaabc3a33e02cb5c6f65719d') in 0.034371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 343.504349 seconds.
+  path: Assets/_VRSL Custom/Models/JDC1 Head.mat
+  artifactKey: Guid(d6ce8cd3cf80bae46b950c0894336048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/JDC1 Head.mat using Guid(d6ce8cd3cf80bae46b950c0894336048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c64c090aa2505fdb4f84f0bb95e6816') in 0.031812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 3.906152 seconds.
+  path: Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Base_MaskMap.png
+  artifactKey: Guid(29aec249fcd4a52469ad46cf660702c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Base_MaskMap.png using Guid(29aec249fcd4a52469ad46cf660702c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885b6813d29975c677fc68df611c648a') in 0.025510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Head_Normal.png
+  artifactKey: Guid(10a31d1f903adae40848c127fc41f24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Head_Normal.png using Guid(10a31d1f903adae40848c127fc41f24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a7c9bd7972f7dc5d1327b684e32004') in 0.038852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Head_MaskMap.png
+  artifactKey: Guid(0a80298853a6538448c13ec6b77f026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Head_MaskMap.png using Guid(0a80298853a6538448c13ec6b77f026b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd953b2051fd3f48108b1ca972b237ab3') in 0.016361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Base_Normal.png
+  artifactKey: Guid(c53469a64fa0a9c4c94fe0c6867c141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Base_Normal.png using Guid(c53469a64fa0a9c4c94fe0c6867c141c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36154e19cb72ff7741539452f80a6181') in 0.017734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.251226 seconds.
+  path: Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Head_Normal.png
+  artifactKey: Guid(10a31d1f903adae40848c127fc41f24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Head_Normal.png using Guid(10a31d1f903adae40848c127fc41f24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9704d6eba06693d206275c90717fc7e') in 0.014260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.795855 seconds.
+  path: Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Base_MaskMap.png
+  artifactKey: Guid(29aec249fcd4a52469ad46cf660702c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Base_MaskMap.png using Guid(29aec249fcd4a52469ad46cf660702c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02fb77d28bb35eb2daeff348783b853') in 0.008550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Head_Normal.png
+  artifactKey: Guid(10a31d1f903adae40848c127fc41f24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Head_Normal.png using Guid(10a31d1f903adae40848c127fc41f24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85aa1726b4d4964b00bc52618c6480ee') in 0.009855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Head_Specular.png
+  artifactKey: Guid(f039c3ad76be2654cb6d9b54c61d9d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Head_Specular.png using Guid(f039c3ad76be2654cb6d9b54c61d9d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2e2da3213f20de2110c0fc340b7e5c') in 0.009727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Head_BaseMap.png
+  artifactKey: Guid(cf8f60cb99f26a6488a686444aa6d8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 2/GLP_JDC1_Head_BaseMap.png using Guid(cf8f60cb99f26a6488a686444aa6d8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb50f4751918c008faa5ceb277b6167') in 0.006678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 323.395597 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (8).jpg
+  artifactKey: Guid(a0623b299d92a564e8f308dd645856a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (8).jpg using Guid(a0623b299d92a564e8f308dd645856a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e125e0e50ced9400c685b2e80988c0') in 0.016032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (10).jpg
+  artifactKey: Guid(fefe6a3985f51034d940687be8f7202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (10).jpg using Guid(fefe6a3985f51034d940687be8f7202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be690b85a57bd96fed10ecf633736de0') in 0.018691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (14).jpg
+  artifactKey: Guid(e449b338bcb7aa04d856b0fca929c017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (14).jpg using Guid(e449b338bcb7aa04d856b0fca929c017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45a18d28e621ae4842c5602c724106c') in 0.015702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (15).jpg
+  artifactKey: Guid(10a7a1354002a1044ad5ef6a7d65eb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (15).jpg using Guid(10a7a1354002a1044ad5ef6a7d65eb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e72784dc0e6e12949c5327bf8fd836ba') in 0.016433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (21).jpg
+  artifactKey: Guid(5925e757158e2d241b10165ea723b9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (21).jpg using Guid(5925e757158e2d241b10165ea723b9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5678cd85b40a1922cf39c8880e71ad46') in 0.012402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (22).jpg
+  artifactKey: Guid(e3f0167066cb8de40a2a6e03c35c1812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (22).jpg using Guid(e3f0167066cb8de40a2a6e03c35c1812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e042ab752ee6856f21668bc99af483d') in 0.012615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/_PoiyomiShaders/TPS/Assets/Jar/textures/glass_Normal.png
+  artifactKey: Guid(4fae0d8ab8a368b4d84949930aad9a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/TPS/Assets/Jar/textures/glass_Normal.png using Guid(4fae0d8ab8a368b4d84949930aad9a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728f31a6c7cd73bf6661953550a7c4c3') in 0.021518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_PoiyomiShaders/TPS/Assets/Jar/textures/glass_Opacity.png
+  artifactKey: Guid(4da9f1b9d8ea3a84699ee5004887b31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/TPS/Assets/Jar/textures/glass_Opacity.png using Guid(4da9f1b9d8ea3a84699ee5004887b31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24020115e20eecc49c8bb9c373508eca') in 0.017860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Packages/com.acchosen.vr-stage-lighting/Editor/Resources/github-logo.png
+  artifactKey: Guid(01ffe9ecc282c514da513aca68c5b22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.acchosen.vr-stage-lighting/Editor/Resources/github-logo.png using Guid(01ffe9ecc282c514da513aca68c5b22f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0aee9dc5c28e53d6acec03dde26652c') in 0.015928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (18).jpg
+  artifactKey: Guid(ef2cd5ae79f431f488a863cda3cb1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (18).jpg using Guid(ef2cd5ae79f431f488a863cda3cb1fd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2dcb5646134786a5ee9295e6621f346') in 0.019703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_VRSL Custom/GLP_JDC1_DefaultMaterial_Normal.png
+  artifactKey: Guid(09e0a492ef58ed04fa80896b19d60bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/GLP_JDC1_DefaultMaterial_Normal.png using Guid(09e0a492ef58ed04fa80896b19d60bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f40adf8774b40d0435fd9a30c41b6f95') in 0.018141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mochie/Unity/Textures/Glass_Rain_Texturesheet.png
+  artifactKey: Guid(df89a63673a32f4438fba4fb13f0f640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mochie/Unity/Textures/Glass_Rain_Texturesheet.png using Guid(df89a63673a32f4438fba4fb13f0f640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4bb11d377ef3a8cf1c094e7ccf2478') in 0.145792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.470370 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (1).jpg
+  artifactKey: Guid(b2d5844398779944897100ab02debb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (1).jpg using Guid(b2d5844398779944897100ab02debb3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f3c6d423297b677d0a812f1746725f') in 0.014953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (2).jpg
+  artifactKey: Guid(dad9afee739f8254ab2dd517e4cf7da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (2).jpg using Guid(dad9afee739f8254ab2dd517e4cf7da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96441a8565c1bb66f15534b32225c07b') in 0.014459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (4).jpg
+  artifactKey: Guid(8ddce56e0290541428b1143f3df5259e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (4).jpg using Guid(8ddce56e0290541428b1143f3df5259e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b65ec26a8cf079c9216a375e79a6e62') in 0.020478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (7).jpg
+  artifactKey: Guid(1aff2597cadef9442ab67b460bbd6241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (7).jpg using Guid(1aff2597cadef9442ab67b460bbd6241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3b3c159745b3341ec2629a212738b2') in 0.015891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/_PoiyomiShaders/Textures/Fur/Fur (2).png
+  artifactKey: Guid(c0125b075311ac74c93f83b0e6558dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Textures/Fur/Fur (2).png using Guid(c0125b075311ac74c93f83b0e6558dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e3437bf08a3c123ceccf87eceb7fd5') in 0.016075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+  artifactKey: Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf using Guid(c9f6d0e7bc8541498c9a4799ba184ede) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294d8b1710dc942a6654edea9fab0fea') in 0.020952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/References/frontview.png
+  artifactKey: Guid(541bbbcfc5c85d94fa83c47efbeef096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/References/frontview.png using Guid(541bbbcfc5c85d94fa83c47efbeef096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2609d740de14bda39a64fcda3ff8665e') in 0.015475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/RobotoMono-Regular.ttf
+  artifactKey: Guid(076260892ae73bd4da5f9c88bde721e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/Scripts/Editor/ModularShaderSystem/Resources/POIMSS/RobotoMono-Regular.ttf using Guid(076260892ae73bd4da5f9c88bde721e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337198cf0ded6af58df67b9c783cde94') in 0.010594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000752 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+  artifactKey: Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg using Guid(1cdc5b506b1a4a33a53c30669ced1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '935017c9296ab4cdc9e3d255002e4538') in 0.016051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f14033b84d77025a5fbc24bc4dbf86') in 0.013818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 1.031652 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39aa21be6f635a486f5977e6c2e2365') in 0.011841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_PoiyomiShaders/TPS/Export_ArmatureRotation.png
+  artifactKey: Guid(e37335fbf8b53d843abbf50bd2751233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_PoiyomiShaders/TPS/Export_ArmatureRotation.png using Guid(e37335fbf8b53d843abbf50bd2751233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e00aaa3d93d08ae49c46d504f456ad') in 0.010632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mochie/Unity/Textures/Flow.png
+  artifactKey: Guid(923a20e8c8f439648bdf7025c790db42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mochie/Unity/Textures/Flow.png using Guid(923a20e8c8f439648bdf7025c790db42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4e969eb9d54eb136d25957079bb5cd') in 0.012619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mochie/Unity/Textures/Foam 3.jpg
+  artifactKey: Guid(75c161495a7f6654db12a3cd484dab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mochie/Unity/Textures/Foam 3.jpg using Guid(75c161495a7f6654db12a3cd484dab16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159f651e6f9c2fd6a4618f5196078111') in 0.013535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+  artifactKey: Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg using Guid(283f897e4925411ebbaa758b4cb13fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bbea4ead7adddf3a9160e8bf6395d2') in 0.014292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.028332 seconds.
+  path: Packages/com.acchosen.vr-stage-lighting/Runtime/Textures/RTs/Legacy/DMXRTViewer-RAWValues-Legacy.renderTexture
+  artifactKey: Guid(ce7f82c50d92c534190ca620c2fe4410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.acchosen.vr-stage-lighting/Runtime/Textures/RTs/Legacy/DMXRTViewer-RAWValues-Legacy.renderTexture using Guid(ce7f82c50d92c534190ca620c2fe4410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcee532bbf3515bedf5c05c58681395d') in 0.010337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.031379 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+  artifactKey: Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd using Guid(fd09957580ac4326916010f1f260975b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2670c90159caae5374e136122a5da9aa') in 0.014218 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset
+  artifactKey: Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway Sign SDF.asset using Guid(dc36b3fdc14f47ebb36fd484a67e268a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74ce4d090c39f9e2533342570bca6faf') in 0.018029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 188.322058 seconds.
+  path: Packages/com.acchosen.vr-stage-lighting/Runtime/Meshes/HQ Meshes/MoverLight-WashLight-HQMesh.fbx
+  artifactKey: Guid(1361fb5cca0845e418adc5d07965dc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.acchosen.vr-stage-lighting/Runtime/Meshes/HQ Meshes/MoverLight-WashLight-HQMesh.fbx using Guid(1361fb5cca0845e418adc5d07965dc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7c8f29247ff94ab4ce2a179541c819') in 0.111640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 83.199513 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3
+  artifactKey: Guid(6d9c6f07929fa4047a275b0206a5c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3 using Guid(6d9c6f07929fa4047a275b0206a5c288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3174c3b03e955b52cd594d0e978a8726') in 0.000576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.022005 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_BaseMap.png
+  artifactKey: Guid(5782140e8ff652345babfeeaf63971ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_BaseMap.png using Guid(5782140e8ff652345babfeeaf63971ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7583108f3e00cc141c50df9ac50667') in 0.011912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001138 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_Normal.png
+  artifactKey: Guid(f39e612bbd639654097e0393c865e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_Normal.png using Guid(f39e612bbd639654097e0393c865e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82641249d387a95bb9935328e72bd9c7') in 0.015654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_Normal.png
+  artifactKey: Guid(05e479f58a74b4f42b06f5a20c93a4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_Normal.png using Guid(05e479f58a74b4f42b06f5a20c93a4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5551e458fe479b50050f184c0672d383') in 0.014849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.783824 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_Normal.png
+  artifactKey: Guid(05e479f58a74b4f42b06f5a20c93a4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_Normal.png using Guid(05e479f58a74b4f42b06f5a20c93a4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4346ddc52ddd223a163e867747226f2') in 0.011757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 55.919707 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png
+  artifactKey: Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png using Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3db99f388b7124582e2a51b37d8702a') in 0.011511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 57.125223 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap_packed.png
+  artifactKey: Guid(e21c3af4bb711684d9c03b0fc2fb8d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap_packed.png using Guid(e21c3af4bb711684d9c03b0fc2fb8d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c699cdb63a8a6eed9c2b53fe3a7efa') in 0.011224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 251.776066 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_BaseMap.png
+  artifactKey: Guid(5782140e8ff652345babfeeaf63971ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_BaseMap.png using Guid(5782140e8ff652345babfeeaf63971ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcea6383c56809e3be988bfc5cc5abff') in 0.012826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_Normal.png
+  artifactKey: Guid(f39e612bbd639654097e0393c865e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_Normal.png using Guid(f39e612bbd639654097e0393c865e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562a87a195d275ba3cde94df4627124f') in 0.010163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_BaseMap.png
+  artifactKey: Guid(e138f46423702a848ba81d40dffd4b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_BaseMap.png using Guid(e138f46423702a848ba81d40dffd4b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa48381c52116d177dac8458125cf764') in 0.014668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_Normal.png
+  artifactKey: Guid(05e479f58a74b4f42b06f5a20c93a4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_Normal.png using Guid(05e479f58a74b4f42b06f5a20c93a4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6471621e53013b90097c8c60323bd806') in 0.010935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_MaskMap.png
+  artifactKey: Guid(9b625bf4a01af15498ad0d9465aa21ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_MaskMap.png using Guid(9b625bf4a01af15498ad0d9465aa21ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8488a03d5ac2c71f8ef3ec6b59b45516') in 0.009002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.778360 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_Normal.png
+  artifactKey: Guid(f39e612bbd639654097e0393c865e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_Normal.png using Guid(f39e612bbd639654097e0393c865e073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d69a296368154c312666c1e8d2e5f85') in 0.013891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.870549 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png
+  artifactKey: Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png using Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74a66dfa0bbc1ca53fa0d399da9a8f10') in 0.027326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.731940 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png
+  artifactKey: Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png using Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97298938f73d36256b53a26591671dd6') in 0.013210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.000324 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_MaskMap.png
+  artifactKey: Guid(9b625bf4a01af15498ad0d9465aa21ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_MaskMap.png using Guid(9b625bf4a01af15498ad0d9465aa21ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ec4ffd1acdfc49d7a9148dd0a4be857') in 0.011068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 23.438856 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_MaskMap.png
+  artifactKey: Guid(9b625bf4a01af15498ad0d9465aa21ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_MaskMap.png using Guid(9b625bf4a01af15498ad0d9465aa21ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '471333af480c1c67029c2e528e7e01fb') in 0.019177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.564239 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_MaskMap.png
+  artifactKey: Guid(9b625bf4a01af15498ad0d9465aa21ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_MaskMap.png using Guid(9b625bf4a01af15498ad0d9465aa21ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0970cf7dd998443b114b3eec40a1337d') in 0.015735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.468348 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png
+  artifactKey: Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png using Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65a0db2bba49a9b4bdc0e3a77b7ceac3') in 0.014316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.488522 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png
+  artifactKey: Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png using Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d839c1219d79ac1742b777a0401523d') in 0.011759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.717100 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png
+  artifactKey: Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png using Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39089c9d8345ef92d4c0a7f775a7bcde') in 0.007126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.273772 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png
+  artifactKey: Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Base_MaskMap.png using Guid(33e6ae5921be7924d94aee4f031ac9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5506b187a2206733057de98fb429e59') in 0.008583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 99.472680 seconds.
+  path: Assets/_VRSL Custom/Custom Shaders/JDC1 1.shader
+  artifactKey: Guid(ef24844397302dc4281cfe268867faa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Custom Shaders/JDC1 1.shader using Guid(ef24844397302dc4281cfe268867faa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9167238c423b370db1f9ebaa7d505d') in 0.009007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.328633 seconds.
+  path: Assets/_VRSL Custom/Custom Shaders/JDC1 Base.shader
+  artifactKey: Guid(ef24844397302dc4281cfe268867faa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Custom Shaders/JDC1 Base.shader using Guid(ef24844397302dc4281cfe268867faa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea51a60b115e453a944a133455512e39') in 0.001569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 60.543459 seconds.
+  path: Assets/_VRSL Custom/Custom Shaders/JDC1 Base.shader
+  artifactKey: Guid(ef24844397302dc4281cfe268867faa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Custom Shaders/JDC1 Base.shader using Guid(ef24844397302dc4281cfe268867faa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9960abace9d27d70c76f186dbd24efc') in 0.001618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 46.616028 seconds.
+  path: Assets/_VRSL Custom/Models/JDC1 Base_RGBAMetallicMaps.png
+  artifactKey: Guid(3fa58c0d19946e24285275fdf677877e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/JDC1 Base_RGBAMetallicMaps.png using Guid(3fa58c0d19946e24285275fdf677877e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb80dfc48879c4fa878a3aa0197d180a') in 0.017778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 92.312935 seconds.
+  path: Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_MaskMap.png
+  artifactKey: Guid(9b625bf4a01af15498ad0d9465aa21ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/Final 3/GLP_JDC1_Head_MaskMap.png using Guid(9b625bf4a01af15498ad0d9465aa21ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a49110aec7a2fa67e30fcc27f7c29d4') in 0.012939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.421 seconds
-Refreshing native plugins compatible for Editor in 29.89 ms, found 10 plugins.
+Removing scripting define AUDIOLINK_V1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ArchiTech.SDK.Editor.ATEditorUtility:RemoveScriptingDefine (string) (at ./Packages/dev.architech.sdk/Editor/ATEditorUtility.cs:572)
+ArchiTech.ProTV.Editor.AudioLinkScriptingDefineHandler:ReloadDefines () (at ./Packages/dev.architech.protv/Editor/Helpers/ProTVEditorUtility.cs:665)
+UnityEditor.AssemblyReloadEvents:OnBeforeAssemblyReload ()
+
+(Filename: ./Packages/dev.architech.sdk/Editor/ATEditorUtility.cs Line: 572)
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+- Loaded All Assemblies, in  1.616 seconds
+Refreshing native plugins compatible for Editor in 33.39 ms, found 10 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -448,6 +1528,19 @@ UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,st
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
+Set Scripting Define Symbols for selected build target (Standalone) to: UNITY_POST_PROCESSING_STACK_V2;UDONSHARP;UDON;VRC_SDK_VRCSDK3;AUDIOLINK;AVPRO_IMPORTED;TPS;AUDIOLINK_V1
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogFormat (string,object[])
+AudioLink.Editor.AudioLinkDefineManager:AddDefinesIfMissing (UnityEditor.BuildTargetGroup,string[]) (at ./Packages/com.llealloo.audiolink/Editor/Scripts/AudioLinkDefineManager.cs:41)
+AudioLink.Editor.AudioLinkDefineManager:.cctor () (at ./Packages/com.llealloo.audiolink/Editor/Scripts/AudioLinkDefineManager.cs:14)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Packages/com.llealloo.audiolink/Editor/Scripts/AudioLinkDefineManager.cs Line: 41)
 
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00040] in .\Library\PackageCache\com.unity.xr.oculus@4.0.0\Runtime\OculusLoader.cs:282 
@@ -536,46 +1629,46 @@ UnityEditor.AssemblyReloadEvents:OnAfterAssemblyReload ()
 
 (Filename: ./Packages/com.texelsaur.video/Editor/Inspectors/Component/ScreenManagerInspector.cs Line: 214)
 
-- Finished resetting the current domain, in  2.962 seconds
-Domain Reload Profiling: 4381ms
-	BeginReloadAssembly (477ms)
+- Finished resetting the current domain, in  3.629 seconds
+Domain Reload Profiling: 5241ms
+	BeginReloadAssembly (598ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (70ms)
+		DisableScriptedObjects (68ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (201ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (14ms)
+		CreateAndSetChildDomain (285ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
 	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (855ms)
-		LoadAssemblies (466ms)
+	LoadAllAssembliesAndSetupDomain (932ms)
+		LoadAssemblies (524ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (437ms)
-			TypeCache.Refresh (422ms)
-				TypeCache.ScanAssembly (405ms)
+		AnalyzeDomain (463ms)
+			TypeCache.Refresh (451ms)
+				TypeCache.ScanAssembly (413ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (2963ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (3629ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1047ms)
+		SetupLoadedEditorAssemblies (1079ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (7ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (428ms)
-			ProcessInitializeOnLoadMethodAttributes (477ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (443ms)
+			ProcessInitializeOnLoadMethodAttributes (475ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (335ms)
-Refreshing native plugins compatible for Editor in 31.71 ms, found 10 plugins.
-Preloading 2 native plugins for Editor in 0.17 ms.
-Unloading 4155 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 185 unused Assets / (1.8 MB). Loaded Objects now: 5052.
-Memory consumption went from 399.0 MB to 397.2 MB.
-Total: 31.073900 ms (FindLiveObjects: 0.373400 ms CreateObjectMapping: 0.237400 ms MarkObjects: 29.441900 ms  DeleteObjects: 1.018900 ms)
+		AwakeInstancesAfterBackupRestoration (435ms)
+Refreshing native plugins compatible for Editor in 37.50 ms, found 10 plugins.
+Preloading 2 native plugins for Editor in 0.26 ms.
+Unloading 4279 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 187 unused Assets / (2.1 MB). Loaded Objects now: 5212.
+Memory consumption went from 405.4 MB to 403.4 MB.
+Total: 41.767200 ms (FindLiveObjects: 0.520900 ms CreateObjectMapping: 0.329500 ms MarkObjects: 39.735700 ms  DeleteObjects: 1.179700 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -592,3 +1685,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 126.575405 seconds.
+  path: Assets/_VRSL Custom/Models/JDC1 Base.mat
+  artifactKey: Guid(70c5d15a0e5ae5044aaed692fc6e1af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/JDC1 Base.mat using Guid(70c5d15a0e5ae5044aaed692fc6e1af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1ac89872ca22e57d85a110bb6585d7') in 0.293678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 855.372708 seconds.
+  path: Assets/_VRSL Custom/Models/JDC1 Head.mat
+  artifactKey: Guid(d6ce8cd3cf80bae46b950c0894336048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/_VRSL Custom/Models/JDC1 Head.mat using Guid(d6ce8cd3cf80bae46b950c0894336048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c663afb0736bfcb025cbca0b8cbdb10e') in 0.032347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6

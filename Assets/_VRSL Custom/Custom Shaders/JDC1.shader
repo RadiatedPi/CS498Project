@@ -2,15 +2,47 @@ Shader "VRSL/Custom/JDC1"
 {
     Properties
     {
+        [Header(VRSL)]
+        [Space]
         [Toggle] _EnableDMX ("Enable Stream DMX/DMX Control", Int) = 0
         [Toggle] _NineUniverseMode ("Extended Universe Mode", Int) = 0
-        _DMXChannel ("Starting DMX Channel", Int) = 1 //raw dmx channel
         [Toggle] _EnableVerticalMode ("Enable Vertical Mode", Int) = 0
         [Toggle] _EnableCompatibilityMode ("Enable Compatibility Mode", Int) = 0
- 
         [Toggle] _EnableStrobe ("Enable Strobe", Int) = 0
+        [Space]
+        [Header(JDC1 Menu)]
+        [Space(10)]
+        _DMXChannel ("DMX Start Address", Int) = 1 //raw dmx channel
+        [Enum(M01 COMPRESS,1,M02 NORMAL,2,M03 SPIX,3,M04 SPIXPRO,4,M05 1PIXPRO,5,M06 EASY,6)] _ChannelMode ("DMX Mode", Int) = 4
+        [Header(Tilt)]
+        [Toggle] _TiltInvert ("Invert Tilt", Int) = 0
+        [Toggle] _TiltEnable("Tilt Enable", Int) = 1
+        [Header(Shutter)]
+        [Header(Init Positions)]
+        [Header(Dimming Curve)]
+        [Header(DMX Hold)]
+        [Header(PWM Frequency)]
+        [Header(Pixel Orientation)]
+        [Header(Second Pixel Orientation)]
+        [Header(Flash Mode)]
+        [Header(Dimmer Flash)]
+        [Header(Plate Color Priority)]
+        //Display
+        //Temperature Unit
+        //Fan Mode
+        //Reset Factory Settings
+        [Header(Reset)]
+        [Header(Manual DMX)]
+        [Header(Test)]
+
+
+
+
+
+
+
         [Header(Base Properties)]
-        [HDR]_Emission("Base DMX Emission Color", Color) = (1,1,1,1)
+        [HDR] _Emission("Base DMX Emission Color", Color) = (1,1,1,1)
         _EmissionMask ("Emission Mask", 2D) = "white" {}
         _GlobalIntensity("Global Intensity", Range(0,1)) = 1
         _FinalIntensity("Final Intensity", Range(0,1)) = 1
@@ -19,7 +51,7 @@ Shader "VRSL/Custom/JDC1"
 
         _MainTex ("Albedo (RGB)", 2D) = "white" {}
         _MetallicSmoothness ("Metallic(R) / Smoothness(A) Map", 2D) = "white" {}
-        _NormalMap ("Normal Map", 2D) = "white" {}
+        [Normal] _NormalMap ("Normal Map", 2D) = "white" {}
     }
     SubShader
     {
@@ -63,39 +95,42 @@ Shader "VRSL/Custom/JDC1"
         void surf (Input IN, inout SurfaceOutputStandard o)
         {             
             int dmx = getDMXChannel();
+            /* ------------------------------------------------------------------------------ */
+            /*                    Standard DMX Controls (used in all modes)                   */
+            /* ------------------------------------------------------------------------------ */
             // TODO: Channel 1: Coarse Tilt (MSB)
 
             // TODO: Channel 2: Fine Tilt (LSB)
 
             // Channel 3: Beam Intensity
-            float beamIntensity = getValueAtCoords(dmx+2, _Udon_DMXGridRenderTexture);//ReadDMX(dmx+2, _MainTex); // 0-1
+            float beamIntensity = getValueAtCoords_Fixed(dmx+2, _Udon_DMXGridRenderTexture);
             // TODO: Channel 4: Beam Duration
 
             // Channel 5: Beam Rate
-            float beamStrobe = GetStrobeOutput(dmx+4-6);
+            float beamStrobe = GetStrobeOutput_Fixed(dmx+4);
             // TODO: Channel 6: Beam Shutter
 
             // TODO: Channel 7: Special/Control
 
+            /* ------------------------------------------------------------------------------ */
+            /*                      DMX Mode 4: SPix Pro (62 Channels)                        */
+            /* ------------------------------------------------------------------------------ */
             // Channel 8: Plate Intensity
-            float plateIntensity = getValueAtCoords(dmx+7, _Udon_DMXGridRenderTexture);//ReadDMX(dmx+7, _MainTex);
+            float plateIntensity = getValueAtCoords_Fixed(dmx+7, _Udon_DMXGridRenderTexture);
             // TODO: Channel 9: Plate Flash Duration
 
             // Channel 10: Plate Flash Rate
-            float plateStrobe = GetStrobeOutput(dmx+9-6);
+            float plateStrobe = GetStrobeOutput_Fixed(dmx+9);
             // TODO: Channel 11: Plate Shutter
 
             // Channel 12: Plates Red
-            float platesRed = getValueAtCoords(dmx+11, _Udon_DMXGridRenderTexture);
             // Channel 13: Plates Green
-            float platesGreen = getValueAtCoords(dmx+12, _Udon_DMXGridRenderTexture);
             // Channel 14: Plates Blue
-            float platesBlue = getValueAtCoords(dmx+13, _Udon_DMXGridRenderTexture);
             half4 platesColorIntensity = GetDMXColor_Fixed(dmx+11);
             // Channels 15-50: Plate Pixels
             float4 platePixelColor = GetDMXColor_Fixed(Get12PanelCh(IN.uv_EmissionMask, dmx+14));
             // Channels 51-62: Beam Pixels
-            float4 beamPixelIntensity = getValueAtCoords(Get12BeamCh(IN.uv_EmissionMask, dmx+50), _Udon_DMXGridRenderTexture);
+            float4 beamPixelIntensity = getValueAtCoords_Fixed(Get12BeamCh(IN.uv_EmissionMask, dmx+50), _Udon_DMXGridRenderTexture);
                 
             float4 beamFinalColor = (beamIntensity*beamPixelIntensity) 
                 * beamStrobe * _CurveBeam * _CurveBeam;
@@ -103,7 +138,7 @@ Shader "VRSL/Custom/JDC1"
                 * plateStrobe * _CurvePlate * _CurvePlate;
 
             float3 emission = beamFinalColor + plateFinalColor;
-            emission = isDMX() ? emission : getEmissionColor();//getBaseEmission();
+            //emission = isDMX() ? emission : getEmissionColor();//getBaseEmission();
             emission *= getGlobalIntensity() * getFinalIntensity();
 
 
