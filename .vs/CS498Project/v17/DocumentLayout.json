@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitHubRepos\\CS498Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E9E74B-C47F-CA59-1A1C-6D6DA920CB5A}|Assembly-CSharp.csproj|c:\\githubrepos\\cs498project\\assets\\_vrsl custom\\shaders\\jdc1.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F2E9E74B-C47F-CA59-1A1C-6D6DA920CB5A}|Assembly-CSharp.csproj|solutionrelative:assets\\_vrsl custom\\shaders\\jdc1.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2E9E74B-C47F-CA59-1A1C-6D6DA920CB5A}|Assembly-CSharp.csproj|c:\\githubrepos\\cs498project\\assets\\_vrsl custom\\shaders\\jdc1-functions.cginc||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{F2E9E74B-C47F-CA59-1A1C-6D6DA920CB5A}|Assembly-CSharp.csproj|solutionrelative:assets\\_vrsl custom\\shaders\\jdc1-functions.cginc||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "JDC1-Functions.cginc",
+              "DocumentMoniker": "C:\\GitHubRepos\\CS498Project\\Assets\\_VRSL Custom\\Shaders\\JDC1-Functions.cginc",
+              "RelativeDocumentMoniker": "Assets\\_VRSL Custom\\Shaders\\JDC1-Functions.cginc",
+              "ToolTip": "C:\\GitHubRepos\\CS498Project\\Assets\\_VRSL Custom\\Shaders\\JDC1-Functions.cginc",
+              "RelativeToolTip": "Assets\\_VRSL Custom\\Shaders\\JDC1-Functions.cginc",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAGQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-06-24T06:07:50.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "JDC1.shader",
+              "DocumentMoniker": "C:\\GitHubRepos\\CS498Project\\Assets\\_VRSL Custom\\Shaders\\JDC1.shader",
+              "RelativeDocumentMoniker": "Assets\\_VRSL Custom\\Shaders\\JDC1.shader",
+              "ToolTip": "C:\\GitHubRepos\\CS498Project\\Assets\\_VRSL Custom\\Shaders\\JDC1.shader",
+              "RelativeToolTip": "Assets\\_VRSL Custom\\Shaders\\JDC1.shader",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAIcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
+              "WhenOpened": "2024-06-22T17:59:10.676Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

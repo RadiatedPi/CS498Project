@@ -979,14 +979,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 63
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
-      value: DMX JDC1
+      value: DMX JDC1 TF-01
       objectReference: {fileID: 0}
     - target: {fileID: 8825506198013398596, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
@@ -1252,6 +1261,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 274
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -1785,6 +1799,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 287
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: invertTilt
       value: 1
       objectReference: {fileID: 0}
@@ -2226,10 +2245,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 249
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
       objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: finalIntensityComponentMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
@@ -2554,6 +2588,16 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 105
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
@@ -3226,14 +3270,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 311
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
-      value: DMX JDC1 FL-01
+      value: DMX JDC1 FR-01
       objectReference: {fileID: 0}
     - target: {fileID: 8825506198013398596, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
@@ -3393,6 +3446,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: VRSL-DMX-TekOSCGridReader-H
+      objectReference: {fileID: 0}
+    - target: {fileID: 4737715810240749055, guid: f37d8aba2d9398d4aa2fc86f7d8c0cd4,
+        type: 3}
+      propertyPath: _ExpandedUniverseSupport
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3780,6 +3838,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 391
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -3802,8 +3865,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4514495141956025119, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -3916,6 +3978,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
+      propertyPath: dmxChannel
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -3938,8 +4010,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1027171290994513046, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -4543,8 +4614,8 @@ Transform:
   m_Children:
   - {fileID: 1604674965}
   - {fileID: 1049468619}
-  - {fileID: 1239999191}
   - {fileID: 2047465935}
+  - {fileID: 1239999191}
   m_Father: {fileID: 1102866728}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &227849477 stripped
@@ -4579,10 +4650,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxUniverse
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
@@ -4971,6 +5046,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 196
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -5097,52 +5177,52 @@ PrefabInstance:
     - target: {fileID: 1895161030725929991, guid: dc2b8d13712a0f3488413e49afae73ef,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.714584
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1895161030725929991, guid: dc2b8d13712a0f3488413e49afae73ef,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.1235569
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1895161030725929991, guid: dc2b8d13712a0f3488413e49afae73ef,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 6.5983067
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1895161030725929991, guid: dc2b8d13712a0f3488413e49afae73ef,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: -0.17341523
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1895161030725929991, guid: dc2b8d13712a0f3488413e49afae73ef,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.98278266
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1895161030725929991, guid: dc2b8d13712a0f3488413e49afae73ef,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.055902038
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1895161030725929991, guid: dc2b8d13712a0f3488413e49afae73ef,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.030666847
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1895161030725929991, guid: dc2b8d13712a0f3488413e49afae73ef,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 159.862
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1895161030725929991, guid: dc2b8d13712a0f3488413e49afae73ef,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -2.4959717
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1895161030725929991, guid: dc2b8d13712a0f3488413e49afae73ef,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -353.932
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6903036763935198140, guid: dc2b8d13712a0f3488413e49afae73ef,
         type: 3}
@@ -5844,6 +5924,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 378
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -5866,8 +5951,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4514495141956025119, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -6139,6 +6223,16 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 183
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
@@ -6791,6 +6885,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -8396,6 +8495,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
+      propertyPath: dmxChannel
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -8418,8 +8527,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1027171290994513046, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -9357,6 +9465,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 417
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -10753,6 +10866,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 66
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -10775,8 +10893,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4514495141956025119, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -11297,14 +11414,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 311
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
-      value: DMX JDC1
+      value: DMX JDC1 TF-05
       objectReference: {fileID: 0}
     - target: {fileID: 8825506198013398596, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
@@ -12330,6 +12456,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 79
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -12352,8 +12483,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4514495141956025119, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -12751,6 +12881,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 144
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -12886,6 +13021,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 430
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -13016,10 +13156,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
@@ -13519,6 +13668,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
+      propertyPath: dmxChannel
+      value: 66
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -13541,8 +13700,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1027171290994513046, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -13654,6 +13812,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 404
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -13676,8 +13839,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4514495141956025119, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -14505,7 +14667,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073f5c55898132f4aa99eb1c6471d4e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 1668314071}
 --- !u!1 &722771758
 GameObject:
   m_ObjectHideFlags: 0
@@ -14885,6 +15046,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -15357,6 +15523,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
+      propertyPath: dmxChannel
+      value: 157
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -15672,6 +15848,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 209
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -16517,10 +16698,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
@@ -16975,6 +17165,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 118
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -17137,6 +17332,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
+      propertyPath: dmxChannel
+      value: 79
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -17159,8 +17364,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1027171290994513046, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -17298,10 +17502,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 311
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
@@ -17387,6 +17600,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 326
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -17409,8 +17627,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4514495141956025119, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -17574,10 +17791,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 373
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
@@ -17980,6 +18206,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
+      propertyPath: dmxChannel
+      value: 92
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -18002,8 +18238,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1027171290994513046, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -18135,10 +18370,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 187
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
@@ -18260,6 +18504,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 456
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -18584,6 +18833,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 339
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -19010,14 +19264,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxUniverse
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: fixtureDefintion
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
-      value: DMX JDC1
+      value: DMX JDC1 TF-00
       objectReference: {fileID: 0}
     - target: {fileID: 8825506198013398596, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
@@ -19260,6 +19523,16 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 196
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
@@ -19538,6 +19811,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 248
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: invertTilt
       value: 1
       objectReference: {fileID: 0}
@@ -19682,14 +19960,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 187
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
-      value: DMX JDC1
+      value: DMX JDC1 TF-03
       objectReference: {fileID: 0}
     - target: {fileID: 8825506198013398596, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
@@ -20195,13 +20482,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1069902874}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalRotation: {x: 0.0315441, y: 0.95949775, z: -0.20574807, w: 0.18983369}
+  m_LocalPosition: {x: -0.93, y: 2.577, z: 14.707}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 24.004, y: 157.383, z: -1.103}
 --- !u!114 &1069902878
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20734,6 +21021,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -21316,6 +21608,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
+      propertyPath: dmxChannel
+      value: 170
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -21597,14 +21899,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 249
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
-      value: DMX JDC1
+      value: DMX JDC1 TF-04
       objectReference: {fileID: 0}
     - target: {fileID: 8825506198013398596, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
@@ -24121,6 +24432,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 443
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -24458,14 +24774,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 373
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
-      value: DMX JDC1 FL-02
+      value: DMX JDC1 FR-02
       objectReference: {fileID: 0}
     - target: {fileID: 8825506198013398596, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
@@ -24903,6 +25228,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5595631434132784427, guid: dedfba01424b93148b3d9a42e95ed2f7,
         type: 3}
+      propertyPath: fixtureDefGUID
+      value: 53713a51f4a1a3c4a98ef63cf0427c45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5595631434132784427, guid: dedfba01424b93148b3d9a42e95ed2f7,
+        type: 3}
       propertyPath: discoballQuality
       value: 0
       objectReference: {fileID: 0}
@@ -24992,6 +25322,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 365
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -25014,8 +25349,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4514495141956025119, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -25523,7 +25857,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c64dd0d7c9ff5684c8786ec255d1ee80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleportMenu: {fileID: 265211189}
 --- !u!1 &1351416458
 GameObject:
   m_ObjectHideFlags: 0
@@ -25927,7 +26260,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073f5c55898132f4aa99eb1c6471d4e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 907153435}
 --- !u!1001 &1392707772
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25948,10 +26280,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 63
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
@@ -26438,6 +26779,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 235
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -27086,6 +27432,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -27393,6 +27744,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 313
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: invertTilt
       value: 1
       objectReference: {fileID: 0}
@@ -27627,7 +27983,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1505482244}
   m_Layer: 0
-  m_Name: Washers
+  m_Name: Washlights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28026,6 +28382,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
+      propertyPath: dmxChannel
+      value: 144
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -28319,14 +28685,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 125
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
-      value: DMX JDC1
+      value: DMX JDC1 TF-02
       objectReference: {fileID: 0}
     - target: {fileID: 8825506198013398596, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
@@ -28449,10 +28824,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 63
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
@@ -28730,10 +29114,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
@@ -28814,14 +29207,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 435
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
-      value: DMX JDC1
+      value: DMX JDC1 TF-07
       objectReference: {fileID: 0}
     - target: {fileID: 8825506198013398596, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
@@ -28919,6 +29321,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3652877201846074882, guid: b9ea9d1c3de7ba64fb1ba22faf7d9bb8,
         type: 3}
+      propertyPath: priority
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3652877201846074882, guid: b9ea9d1c3de7ba64fb1ba22faf7d9bb8,
+        type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -28940,37 +29347,37 @@ PrefabInstance:
     - target: {fileID: 6799113191805487499, guid: b9ea9d1c3de7ba64fb1ba22faf7d9bb8,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 136883.8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6799113191805487499, guid: b9ea9d1c3de7ba64fb1ba22faf7d9bb8,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -41039.973
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6799113191805487499, guid: b9ea9d1c3de7ba64fb1ba22faf7d9bb8,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1486.3772
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6799113191805487499, guid: b9ea9d1c3de7ba64fb1ba22faf7d9bb8,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.00000028088027
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6799113191805487499, guid: b9ea9d1c3de7ba64fb1ba22faf7d9bb8,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6799113191805487499, guid: b9ea9d1c3de7ba64fb1ba22faf7d9bb8,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6799113191805487499, guid: b9ea9d1c3de7ba64fb1ba22faf7d9bb8,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6799113191805487499, guid: b9ea9d1c3de7ba64fb1ba22faf7d9bb8,
         type: 3}
@@ -28980,7 +29387,7 @@ PrefabInstance:
     - target: {fileID: 6799113191805487499, guid: b9ea9d1c3de7ba64fb1ba22faf7d9bb8,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -179.99998
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6799113191805487499, guid: b9ea9d1c3de7ba64fb1ba22faf7d9bb8,
         type: 3}
@@ -29020,6 +29427,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -29176,10 +29588,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2140508205}
-  - {fileID: 650840064}
   - {fileID: 973790569}
   - {fileID: 816406421}
+  - {fileID: 2140508205}
+  - {fileID: 650840064}
   - {fileID: 1232707631}
   - {fileID: 1102866728}
   m_Father: {fileID: 778149638}
@@ -29245,6 +29657,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 183
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -29728,6 +30145,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 170
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -31090,10 +31512,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 187
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
@@ -32056,14 +32487,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 249
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
-      value: DMX JDC1 FL-00
+      value: DMX JDC1 FR-00
       objectReference: {fileID: 0}
     - target: {fileID: 8825506198013398596, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
@@ -32148,6 +32588,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 261
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -32752,6 +33197,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 131
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -32916,6 +33366,7 @@ MonoBehaviour:
   m_Script: {fileID: -1533785930, guid: 661092b4961be7145bfbe56e1e62337b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AllowFocusView: 1
 --- !u!114 &1882219019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33190,6 +33641,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
+      propertyPath: dmxUniverse
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -33212,8 +33668,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1027171290994513046, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -33835,14 +34290,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 373
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
-      value: DMX JDC1
+      value: DMX JDC1 TF-06
       objectReference: {fileID: 0}
     - target: {fileID: 8825506198013398596, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
@@ -34107,6 +34571,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
+      propertyPath: dmxChannel
+      value: 131
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -34352,7 +34826,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073f5c55898132f4aa99eb1c6471d4e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 2116882340}
 --- !u!4 &1974164670 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3870657416341811545, guid: ea17fa8bb2a8544428b1cdfea3a9364b,
@@ -34543,6 +35016,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -34867,6 +35345,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
+      propertyPath: dmxChannel
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -35002,6 +35485,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
+      propertyPath: dmxChannel
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -35024,8 +35517,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1027171290994513046, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -35134,6 +35626,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 222
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -35302,6 +35799,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 157
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -36406,22 +36908,22 @@ PrefabInstance:
     - target: {fileID: 9201486100010084664, guid: ca8797bd0f7934e4e98fd29962c732cc,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.88
       objectReference: {fileID: 0}
     - target: {fileID: 9201486100010084664, guid: ca8797bd0f7934e4e98fd29962c732cc,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 9201486100010084664, guid: ca8797bd0f7934e4e98fd29962c732cc,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 10.16
       objectReference: {fileID: 0}
     - target: {fileID: 9201486100010084664, guid: ca8797bd0f7934e4e98fd29962c732cc,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.8384679
       objectReference: {fileID: 0}
     - target: {fileID: 9201486100010084664, guid: ca8797bd0f7934e4e98fd29962c732cc,
         type: 3}
@@ -36431,7 +36933,7 @@ PrefabInstance:
     - target: {fileID: 9201486100010084664, guid: ca8797bd0f7934e4e98fd29962c732cc,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0.54495096
       objectReference: {fileID: 0}
     - target: {fileID: 9201486100010084664, guid: ca8797bd0f7934e4e98fd29962c732cc,
         type: 3}
@@ -36446,7 +36948,7 @@ PrefabInstance:
     - target: {fileID: 9201486100010084664, guid: ca8797bd0f7934e4e98fd29962c732cc,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 66.043
       objectReference: {fileID: 0}
     - target: {fileID: 9201486100010084664, guid: ca8797bd0f7934e4e98fd29962c732cc,
         type: 3}
@@ -36694,37 +37196,37 @@ PrefabInstance:
     - target: {fileID: 3272158036615796451, guid: 22f276485886ccf44b12574d72998c0a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.242876
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3272158036615796451, guid: 22f276485886ccf44b12574d72998c0a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.8036547
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3272158036615796451, guid: 22f276485886ccf44b12574d72998c0a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 11.740429
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3272158036615796451, guid: 22f276485886ccf44b12574d72998c0a,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.8965159
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3272158036615796451, guid: 22f276485886ccf44b12574d72998c0a,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.2231886
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3272158036615796451, guid: 22f276485886ccf44b12574d72998c0a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.3713483
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3272158036615796451, guid: 22f276485886ccf44b12574d72998c0a,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.09244759
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3272158036615796451, guid: 22f276485886ccf44b12574d72998c0a,
         type: 3}
@@ -36804,6 +37306,16 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 118
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
@@ -38148,6 +38660,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
+      propertyPath: dmxChannel
+      value: 53
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
+        type: 3}
       propertyPath: maxConeLength
       value: 10
       objectReference: {fileID: 0}
@@ -38170,8 +38692,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: -4465382353729456857, guid: b3e8ff051cc2d684aa255ceccce9b96f,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 1027171290994513046, guid: b3e8ff051cc2d684aa255ceccce9b96f,
         type: 3}
       propertyPath: serializedProgramAsset
@@ -38337,14 +38858,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 435
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
-      value: DMX JDC1 FL-03
+      value: DMX JDC1 FR-03
       objectReference: {fileID: 0}
     - target: {fileID: 8825506198013398596, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
@@ -38446,10 +38976,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
+      propertyPath: dmxChannel
+      value: 435
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: dmxUniverse
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
@@ -38725,6 +39264,11 @@ PrefabInstance:
         type: 3}
       propertyPath: coneLength
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
+        type: 3}
+      propertyPath: dmxChannel
+      value: 352
       objectReference: {fileID: 0}
     - target: {fileID: -8425864988521483086, guid: f5be3cfe3f15bfb4e9477904c5af9daf,
         type: 3}
@@ -39236,8 +39780,7 @@ PrefabInstance:
         type: 3}
       propertyPath: serializationData.Prefab
       value: 
-      objectReference: {fileID: 6743974690749523805, guid: 9329dd669750d984b8b0f7fa5f464009,
-        type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 8156493417001030910, guid: 9329dd669750d984b8b0f7fa5f464009,
         type: 3}
       propertyPath: m_Name
@@ -39292,6 +39835,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831639334043635837, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831639334043635837, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831639334043635837, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8831639334043635837, guid: 9329dd669750d984b8b0f7fa5f464009,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -39682,6 +40245,7 @@ MonoBehaviour:
     SerializedTypeNames: []
   portraitCameraPositionOffset: {x: 0, y: 0, z: 0}
   portraitCameraRotationOffset: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  NavigationAreas: []
 --- !u!64 &7606902903243430482
 MeshCollider:
   m_ObjectHideFlags: 0
